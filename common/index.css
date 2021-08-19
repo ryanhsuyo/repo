@@ -530,7 +530,6 @@ div.section6 div.block{
 }
 div.section6 div.item{
     display: grid;
-    border: 1px solid white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 675px;
@@ -549,7 +548,7 @@ div.item div.item_bg1{
 div.section7{
     display: flex;
     background-color: black;
-    padding-bottom: 481px;
+    padding-bottom: 380px;
 }
 
 div.section7 div.title{
@@ -562,10 +561,14 @@ div.section7 div.title{
     z-index: 2;
     padding-bottom: 400px;
 }
-div.section7 div.content{
+div.block{
+    width: 400px;
+
+}
+div.block div.content{
     position: relative;
-    display: block;
-    top: 500px;
+    display: inline-block;
+    left: 300px;
     color: white;
     font-size: 24px;
     z-index: 2;
@@ -579,6 +582,7 @@ div.section7 div.t1_button{
     left: 375px;
     position: absolute;
     clear: both;
+    background-color: black;
     
 }
 div.section7 div.t1_button span{
