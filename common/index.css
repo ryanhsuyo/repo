@@ -78,7 +78,7 @@ div.section1 div.t1_button span{
 div.section2 div.stairs_bg{
     background-image: url("../images/stairs.png");
     display: block;
-    width: 55%;
+    width: 640px;
     height: 1445px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,8 +133,8 @@ div.blog1 div.blog_1_ul{
 div.blog_1 div.blog_1_bg{
     width: 100px;
     height: 135px;
-    border: 1px solid black;
     margin-left: 55px;
+    background-image: url("../images/tab/100135/p2.jpg");
     margin-top: 90px;
     display: inline-block;
     box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
@@ -160,8 +160,8 @@ div.blog_1 div.blog_1_1_content{
 }
 div.blog_1_ul2 div.blog_2_bg{
     display: inline-block;
-    border: 1px solid black;
     width: 100px;
+    background-image: url("../images/tab/100135/p1.jpg");
     height: 135px;
     margin-top: 60px;
     margin-left: 55px;
@@ -365,8 +365,11 @@ div.section3 div.circle7 span{
 div.right_block{
     margin-top: 85px;
     height: 400px;
-    outline: 1px solid red;
+    background-image: url("../images/S__58220554.jpg");
+    background-size: cover;
 }
+
+
 
 
 
@@ -389,7 +392,6 @@ div.section4 div.title2{
     text-align: center;
 }
 div.section4 div.t2_video{
-    outline: 1px solid black;
     height: 330px;
     width: 440px;
     margin-top: 65px;
@@ -407,13 +409,11 @@ div.section4  div.t2_video_pic{
     justify-content: space-around;
 }
 div.t2_video_pic  div.t2_video_pic1{
-    border: 1px solid black;
     width: 200px;
     height: 125px;
     display: inline-block;
 }
 div.t2_video_pic div.t2_video_pic2{
-    border: 1px solid black;
     width: 200px;
     height: 125px;
     display: inline-block;
@@ -472,6 +472,7 @@ div.blog_2_ul div.blog_1_bg{
     height: 135px;
     margin-left: 100px;
     margin-top: 90px;
+    background-image: url("../images/tab/100135/patten1.jpg") ;
     box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
 }
 div.blog_2_ul div.blog_2_1_text_title{
@@ -498,6 +499,7 @@ div.blog_22_ul div.blog_2_bg{
     height: 135px;
     margin-left: 100px;
     margin-top: 60px;
+    background-image: url("../images/tab/100135/patten2.jpg");
     box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
 }
 div.blog_22_ul div.blog_2_2_text_title{

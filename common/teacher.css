@@ -60,70 +60,177 @@ div.main div.teacher_block{
 }
 div.teacher_block div.teacher1_bg{
     z-index: 0;
-    background-color: rgba(0, 0, 0, .2);
     transform:skew(-7.5deg);
     width: 140px;
     height: 450px;
-    background-image: url="#";
+    background-image: url(../images/teacher/t1.jpg);
+    background-size: cover;
+    position: relative;
 }
+div.teacher1_bg div.name{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    top: 200px;
+    left: 0px;
+}
+div.teacher1_bg div.ename{
+    position: absolute;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    bottom: 0px;
+}
+
 div.teacher_block div.teacher2_bg{
     z-index:0;
-    background-color: black;
     transform:skew(-7.5deg);
     width: 140px;
     height: 450px;
     margin-top: 100px;
-    background-image: url="#";
+    background-image: url(../images/teacher/t2.jpg);
+    background-size: cover;
+    left: -6px;
     position: relative;
-    left: -7px;
 }
+div.teacher2_bg div.name{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    top: 150px;
+    left: 0px;
+}
+div.teacher2_bg div.ename{
+    position: absolute;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    bottom: 0px;
+}
+
 div.teacher_block div.teacher3_bg{
     z-index:0;
-    background-color: red;
+    background-image: url(../images/teacher/t3.jpg);
+    background-size: cover;
     transform:skew(-7.5deg);
     width: 140px;
     height: 450px;
-    background-image: url="#";
+}
+div.teacher3_bg div.name{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    top: 200px;
+    left: 0px;
+}
+div.teacher3_bg div.ename{
+    position: absolute;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    bottom: 0px;
 }
 div.teacher_block div.teacher4_bg{
     z-index:0;
-    background-color: black;
     transform:skew(-7.5deg);
     width:140px;
     height: 450px;
     margin-top: 100px;
-    background-image: url="#";
+    background-image: url(../images/teacher/t4.jpg);
+    background-size: cover;
+    left: -6px;
     position: relative;
-    left: -7px;
+}
+div.teacher4_bg div.name{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    top: 200px;
+    left: 0px;
+}
+div.teacher4_bg div.ename{
+    position: absolute;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    bottom: 0px;
 }
 div.teacher_block div.teacher5_bg{
     z-index:0;
-    background-color: red;
     transform:skew(-7.5deg);
     width: 140px;
     height: 450px;
-    background-image: url="#";
+    background-image: url(../images/teacher/t5.jpg);
+    background-size: cover;
+}
+div.teacher5_bg div.name{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    top: 200px;
+    left: 0px;
+}
+div.teacher5_bg div.ename{
+    position: absolute;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    bottom: 0px;
 }
 div.teacher_block div.teacher6_bg{
     z-index:0;
-    background-color: black;
+    background-image: url(../images/teacher/t6.jpg);
+    background-size: cover;
+    left: -6px;
     transform:skew(-7.5deg);
     width:140px;
     height: 450px;
     margin-top: 100px;
-    background-image: url="#";
     position: relative;
-    left: -7px;
+    }
+    div.teacher6_bg div.name{
+        position: absolute;
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+        top: 170px;
+        left: 0px;
+    }
+    div.teacher6_bg div.ename{
+        position: absolute;
+        display: inline-block;
+        font-size: 48px;
+        color: white;
+        bottom: 0px;
     }
 div.teacher_block div.teacher7_bg{
     z-index:0;
-    background-color: red;
+    background-image: url(../images/teacher/t7.jpg);
+    background-size: cover;
     transform:skew(-7.5deg);
     width: 140px;
     height: 450px;
-    background-image: url="#";  
 }
-
+div.teacher7_bg div.name{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    top: 150px;
+    left: 0px;
+}
+div.teacher7_bg div.ename{
+    position: absolute;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    bottom: 0px;
+}
 
 
 div.main div.bottom_block{

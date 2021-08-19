@@ -6,7 +6,7 @@ footer{
     display: block;
     margin: 0 auto;
     background-color: #000000;
-
+    padding-top: 10px;
 }
 div.footer{
     width: 1200px;
@@ -19,7 +19,6 @@ div.footer div.footer_left{
     width: 320px;
 }
 div.footer_left div.map{
-    border: 1px solid yellow;
     width: 320px;
     height: 200px;
 }
@@ -43,5 +42,7 @@ div.footer div.footer_right{
 div.footer div.logo_block{
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-image: url(../images/bhlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
