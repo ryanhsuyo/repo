@@ -3,9 +3,6 @@
 @import "/common/banner2.css";
 
 
-div.header{
-    height: 480px;
-} 
 div.top_title{
     position: absolute;
     width: 200px;
