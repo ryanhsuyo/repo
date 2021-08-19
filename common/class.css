@@ -1,6 +1,6 @@
 @import "../common/header.css";
 @import "../common/banner2.css";
-@import  "../common/footer.css";
+@import "../common/footer.css";
 div.title{
     background-color: white;
     transform: translateY(-80px);
