@@ -1,0 +1,382 @@
+@import "/common/header.css";
+@import "/common/footer.css";
+@import "/common/banner2.css";
+
+
+div.header{
+    height: 480px;
+} 
+div.top_title{
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: 960px;
+    z-index: 1;
+    color: white;
+    font-size: 48px;
+}
+div.top_block{
+    width: 640px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 360px;
+}
+div.title{
+    background-color: white;
+    transform: translateY(-80px);
+    display: block;
+    z-index: 1;
+    font-size: 48px;
+    line-height: 160px;
+    width:640px;
+    padding-left: 100px;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.main{
+    position: relative;
+    display: flex;
+}
+div.left{
+    display: flex;
+    width: 640px;
+}
+/* 流程表 */
+div.left div.process{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 640px;
+    border: 1px solid black;
+}
+div.left div.process_line{
+    width: 50px;
+    height: 50px;
+}
+
+/* 流程一 */
+/* div.process_1{
+    width: 400px;
+} */
+div.process_1 div.bg1{
+    /* display: inline-block; */
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+div.process_1 div.content{
+    width: 80px;
+    font-size: 20px;
+}
+
+/* 流程二 */
+/* div.process_2{
+    width: 400px;
+} */
+div.process_2 div.bg2{
+    /* display: inline-block; */
+
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+div.process_2 div.content{
+    width: 80px;
+    font-size: 20px;
+}
+
+
+/* 流程四 */
+/* div.process_4{
+    width: 400px;
+} */
+div.process_4 div.bg4{
+    display: inline-block;
+
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+div.process_4 div.content{
+    width: 80px;
+    font-size: 20px;
+}
+
+
+/* 流程三 */
+/* div.process_3{
+    width: 400px;
+} */
+div.process_3 div.bg3{
+    display: inline-block;
+
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+div.process_3 div.content{
+    width: 80px;
+    font-size: 20px;
+}
+
+
+
+
+
+div.right{
+display: flex;
+width: 560px;
+}
+div.right div.process_block{
+    margin: 0 auto;
+    display: flex;
+    /* width: 560px; */
+    align-items: center;
+
+}
+div.right div.process_line{
+background-image: url("#");
+width: 100px;
+height: 100px;
+}
+
+
+
+/* 彩排租借  */
+div.main div.rantroom{
+    
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+div.rantroom div.rehearsa_room{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+}
+div.rehearsa_room div.re_room_bg{
+    width: 680px;
+    height: 460px;
+    margin-bottom: 100px;
+    background-color: black;
+    background-image: url("#");
+    position: relative;
+    display: flex;
+}
+div.re_left{
+    width: 640px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+div.rehearsa_room div.re_room_bg1{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+    justify-content: space-between;
+
+}
+div.rehearsa_room div.re_room_bg2{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+}
+div.rehearsa_room div.re_room_bg3{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+}
+
+/* 彩排 介紹 */
+div.re_right{
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+}
+div.re_right div.re_title{
+    width: 400px;
+    font-size: 60px;
+
+}
+div.re_right div.re_title span{
+    font-size: 40px;
+}
+div.re_right div.content{
+    width: 320px;
+    font-size: 40px;
+    line-height: 60px;
+}
+div.re_right div.price{
+    margin-top: 60px;
+    width: 320px;
+    font-size: 40px;
+    line-height: 20px;
+
+}
+
+
+
+
+/* 彩排預約 */
+div.re_right_bottom{
+    margin-top: 50px;
+    display: block;
+}
+
+
+div.re_right_bottom div.connect_title{
+    font-size: 40px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+div.re_right_bottom div.connect{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;  
+
+}
+div.connect div.connect_fb{
+    display: inline-block;
+    background-image: url("#");
+    width: 100px;
+    height: 100px;
+}
+div.connect div.connect_line{
+    display: inline-block;
+    background-image: url("#");
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+/* 練團租借 */
+
+/* 練團介紹 */
+div.rantroom div.training_room{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+    width: 1100px;
+    margin-bottom: 200px;
+}
+
+div.tr_left{
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+}
+div.tr_left div.tr_title{
+    width: 400px;
+    font-size: 60px;
+
+}
+div.tr_left div.content{
+    width: 320px;
+    font-size: 40px;
+    line-height: 60px;
+}
+div.tr_left div.price{
+    margin-top: 60px;
+    width: 320px;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+
+
+
+/* 練團預約 */
+div.tr_left_bottom{
+    margin-top: 50px;
+    display: block;
+    width: 400px;
+}
+
+
+div.tr_left_bottom div.connect_title{
+    font-size: 40px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+div.tr_left_bottom div.connect{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;  
+
+}
+div.tr_left_bottom div.connect div.connect_fb{
+    display: inline-block;
+    background-image: url("#");
+    width: 100px;
+    height: 100px;
+}
+div.tr_left_bottom div.connect div.connect_line{
+    display: inline-block;
+    background-image: url("#");
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 練團租借 */
+
+
+div.rantroom div.tr_right{
+    width: 640px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+div.tr_right div.tr_room_bg{
+    width: 680px;
+    height: 460px;
+    margin-bottom: 100px;
+    background-color: black;
+    background-image: url("#");
+    position: relative;
+    display: flex;
+}
+div.tr_right div.tr_room_bg1{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+    justify-content: space-between;
+
+}
+div.tr_right div.tr_room_bg2{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+}
+div.tr_right div.tr_room_bg3{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+}
+

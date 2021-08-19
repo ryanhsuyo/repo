@@ -1,0 +1,13 @@
+div.banner{
+    background-image: url("../../images/banner_1.png");
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    height: 770px;
+    max-width: 100%;
+    width: 1200px;
+    background-position: center center;
+    z-index: 0;
+    clear: both;
+    
+}

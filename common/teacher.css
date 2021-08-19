@@ -1,0 +1,211 @@
+@import "/common/header.css";
+@import "/common/footer.css";
+@import "/common/banner2.css";
+
+
+div.header{
+    height: 480px;
+} 
+div.top_title{
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: 960px;
+    z-index: 1;
+    color: white;
+    font-size: 48px;
+}
+div.top_block{
+    width: 640px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 360px;
+}
+div.title{
+    background-color: white;
+    transform: translateY(-80px);
+    display: block;
+    z-index: 1;
+    font-size: 48px;
+    line-height: 160px;
+    width:640px;
+    padding-left: 100px;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+div.main{
+    margin: 0 auto;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.main div.teacher_block{
+    /* background-image: url(/images/test.png); */
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    width: 1060px;
+    margin: 0 auto;
+    justify-content: center;
+}
+div.teacher_block div.teacher1_bg{
+    z-index: 0;
+    background-color: rgba(0, 0, 0, .2);
+    transform:skew(-7.5deg);
+    width: 140px;
+    height: 450px;
+    background-image: url="#";
+}
+div.teacher_block div.teacher2_bg{
+    z-index:0;
+    background-color: black;
+    transform:skew(-7.5deg);
+    width: 140px;
+    height: 450px;
+    margin-top: 100px;
+    background-image: url="#";
+    position: relative;
+    left: -7px;
+}
+div.teacher_block div.teacher3_bg{
+    z-index:0;
+    background-color: red;
+    transform:skew(-7.5deg);
+    width: 140px;
+    height: 450px;
+    background-image: url="#";
+}
+div.teacher_block div.teacher4_bg{
+    z-index:0;
+    background-color: black;
+    transform:skew(-7.5deg);
+    width:140px;
+    height: 450px;
+    margin-top: 100px;
+    background-image: url="#";
+    position: relative;
+    left: -7px;
+}
+div.teacher_block div.teacher5_bg{
+    z-index:0;
+    background-color: red;
+    transform:skew(-7.5deg);
+    width: 140px;
+    height: 450px;
+    background-image: url="#";
+}
+div.teacher_block div.teacher6_bg{
+    z-index:0;
+    background-color: black;
+    transform:skew(-7.5deg);
+    width:140px;
+    height: 450px;
+    margin-top: 100px;
+    background-image: url="#";
+    position: relative;
+    left: -7px;
+    }
+div.teacher_block div.teacher7_bg{
+    z-index:0;
+    background-color: red;
+    transform:skew(-7.5deg);
+    width: 140px;
+    height: 450px;
+    background-image: url="#";  
+}
+
+
+
+div.main div.bottom_block{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+div.bottom_block div.block_1{
+    width: 240px;
+}
+div.block_1 div.guitar_title{
+    font-size: 28px;
+    color: black;
+    display: block;
+    width: 140px;
+}
+div.block_1 div.guitar_content{
+    font-size:20px;
+    color: black;
+    display: block;
+    width: 245px;
+    margin-top: 110px;
+}
+div.bottom_block div.block_2{
+    width: 240px;
+}
+div.block_2 div.uklele_title{
+    font-size: 28px;
+    color: black;
+    display: block;
+    width: 200px;
+    margin-top: 110px;
+}
+
+div.block_2 div.uklele_content{
+    font-size:20px;
+    color: black;
+    display: block;
+    width: 245px;
+    margin-top: 110px;
+}
+
+div.bottom_block div.block_3{
+    width: 240px;
+}
+div.bottom_block div.cajon_title{
+    font-size: 28px;
+    color: black;
+    display: block;
+    width: 140px;
+}
+
+div.bottom_block div.cajon_content{
+    font-size:20px;
+    color: black;
+    display: block;
+    width: 245px;
+    margin-top: 110px;
+}
+
+div.main div.button{
+    position: relative;
+    width: 650px;
+    height: 80px;
+    margin-left: 240px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    background-image: url("../images/arrow_long.png");
+    background-repeat: no-repeat;
+    /* z-index: 2; */
+}
+div.main div.button span{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f6cf5f;
+    position:relative;
+    top:-5px;
+    display: inline-block;
+}

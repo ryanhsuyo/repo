@@ -1,0 +1,39 @@
+@import "/common/header.css";
+@import "/common/footer.css";
+@import "/common/banner2.css";
+
+
+div.header{
+    height: 480px;
+} 
+div.top_title{
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: 960px;
+    z-index: 1;
+    color: white;
+    font-size: 48px;
+}
+div.top_block{
+    width: 640px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 360px;
+}
+div.title{
+    background-color: white;
+    transform: translateY(-80px);
+    display: block;
+    z-index: 1;
+    font-size: 48px;
+    line-height: 160px;
+    width:640px;
+    padding-left: 100px;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
