@@ -1,6 +1,6 @@
-@import "/common/header.css";
-@import "/common/footer.css";
-@import "/common/banner2.css";
+@import "../common/header.css";
+@import "../common/footer.css";
+@import "../common/banner2.css";
 
 
 div.top_title{
