@@ -66,7 +66,7 @@ div.process_1 div.bg1{
     background-size: cover;
 }
 div.process_1 div.content{
-   
+    font-weight: bold;
     margin-top: 20px;
     margin-bottom: 40px;
     width: 200px;
@@ -101,17 +101,18 @@ div.process_2 div.content{
     width: 200px;
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 div.process_2 div.bg2:after{
     position: absolute;
-    left: 125px;
-    top: 325px;
+    left: 110px;
+    top: 310px;
     content: '';
     display: inline-block;
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-left-color: black;
+    border-top-color: black;
 }
 
 /* 流程四 */
@@ -120,7 +121,7 @@ div.process_2 div.bg2:after{
 } */
 div.process_4 div.bg4{
     display: inline-block;
-
+    position: relative;
     width: 240px;
     height: 240px;
     background-image: url("../images/icon-id-card.jpg");
@@ -132,6 +133,18 @@ div.process_4 div.content{
     width: 200px;
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
+}
+div.process_4 div.bg4:after{
+    position: absolute;
+    left: -110px;
+    top: 110px;
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-color: black;
 }
 
 
@@ -141,7 +154,7 @@ div.process_4 div.content{
 } */
 div.process_3 div.bg3{
     display: inline-block;
-
+    position: relative;
     width: 240px;
     height: 240px;
     background-image: url("../images/icon-form-fill.jpg");
@@ -153,8 +166,19 @@ div.process_3 div.content{
     width: 200px;
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
-
+div.process_3 div.bg3:after{
+    position: absolute;
+    left: 110px;
+    top: -30px;
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: black;
+}
 
 
 
