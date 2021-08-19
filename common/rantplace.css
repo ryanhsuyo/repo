@@ -48,7 +48,6 @@ div.left div.process{
     flex-wrap: wrap;
     justify-content: space-between;
     width: 640px;
-    border: 1px solid black;
 }
 div.left div.process_line{
     width: 50px;
@@ -63,10 +62,14 @@ div.process_1 div.bg1{
     /* display: inline-block; */
     width: 240px;
     height: 240px;
-    border: 1px solid black;
+    background-image: url("../images/icon-room.jpg");
+    background-size: cover;
 }
 div.process_1 div.content{
-    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -79,10 +82,14 @@ div.process_2 div.bg2{
 
     width: 240px;
     height: 240px;
-    border: 1px solid black;
+    background-image: url("../images/icon-phone-call.jpg");
+    background-size: cover;
 }
 div.process_2 div.content{
-    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -96,10 +103,14 @@ div.process_4 div.bg4{
 
     width: 240px;
     height: 240px;
-    border: 1px solid black;
+    background-image: url("../images/icon-id-card.jpg");
+    background-size: cover;
 }
 div.process_4 div.content{
-    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -113,10 +124,14 @@ div.process_3 div.bg3{
 
     width: 240px;
     height: 240px;
-    border: 1px solid black;
+    background-image: url("../images/icon-form-fill.jpg");
+    background-size: cover;
 }
 div.process_3 div.content{
-    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -136,7 +151,7 @@ div.right div.process_block{
 
 }
 div.right div.process_line{
-background-image: url("#");
+background-image: url("../images/line.jpg");
 width: 100px;
 height: 100px;
 }
@@ -160,8 +175,8 @@ div.rehearsa_room div.re_room_bg{
     width: 680px;
     height: 460px;
     margin-bottom: 100px;
-    background-color: black;
-    background-image: url("#");
+    background-image: url("../images/rent/40592200_2271446103127654_5648624692869726208_n.jpg");
+    background-size: cover;
     position: relative;
     display: flex;
 }
@@ -177,7 +192,8 @@ div.rehearsa_room div.re_room_bg1{
     display: inline-block;
     width: 200px;
     height: 120px;
-    background-color: black;
+    background-image: url("../images/rent/40620366_2271446149794316_2979156403618316288_n.jpg");
+    background-size: cover;
     justify-content: space-between;
 
 }
@@ -185,13 +201,15 @@ div.rehearsa_room div.re_room_bg2{
     display: inline-block;
     width: 200px;
     height: 120px;
-    background-color: black;
+    background-image: url("../images/rent/48414321_2146318678721645_5611236285298507776_n.jpg");
+    background-size: cover;
 }
 div.rehearsa_room div.re_room_bg3{
     display: inline-block;
     width: 200px;
     height: 120px;
-    background-color: black;
+    background-image: url("../images/rent/S__58220556.jpg");
+    background-size: cover;
 }
 
 /* 彩排 介紹 */
@@ -248,13 +266,13 @@ div.re_right_bottom div.connect{
 }
 div.connect div.connect_fb{
     display: inline-block;
-    background-image: url("#");
+    background-image: url("../images/fb.jpg");
     width: 100px;
     height: 100px;
 }
 div.connect div.connect_line{
     display: inline-block;
-    background-image: url("#");
+    background-image: url("../images/line.jpg");
     width: 100px;
     height: 100px;
 }
@@ -324,13 +342,13 @@ div.tr_left_bottom div.connect{
 }
 div.tr_left_bottom div.connect div.connect_fb{
     display: inline-block;
-    background-image: url("#");
+    background-image: url("../images/fb.jpg");
     width: 100px;
     height: 100px;
 }
 div.tr_left_bottom div.connect div.connect_line{
     display: inline-block;
-    background-image: url("#");
+    background-image: url("../images/line.jpg");
     width: 100px;
     height: 100px;
 }
@@ -351,8 +369,8 @@ div.tr_right div.tr_room_bg{
     width: 680px;
     height: 460px;
     margin-bottom: 100px;
-    background-color: black;
-    background-image: url("#");
+    background-image: url("../images/rent/40642816_2271450549793876_4749345887837224960_n.jpg");
+    background-size: cover;
     position: relative;
     display: flex;
 }
@@ -360,7 +378,8 @@ div.tr_right div.tr_room_bg1{
     display: inline-block;
     width: 200px;
     height: 120px;
-    background-color: black;
+    background-image: url("../images/rent/IMG_6994\ 2.JPG");
+    background-size: cover;
     justify-content: space-between;
 
 }
@@ -368,12 +387,14 @@ div.tr_right div.tr_room_bg2{
     display: inline-block;
     width: 200px;
     height: 120px;
-    background-color: black;
+    background-image: url("../images/rent/train.png");
+    background-size: cover;
 }
 div.tr_right div.tr_room_bg3{
     display: inline-block;
     width: 200px;
     height: 120px;
-    background-color: black;
+    background-image: url("../images/rent/S__58220557.jpg");
+    background-size: cover;
 }
 

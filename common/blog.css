@@ -39,9 +39,12 @@ div.main{
 }
 div.left{
     width: 640px;
+    z-index: -2;
 }
 div.right{
     width: 560px;
+    background-color: #A04724;
+    z-index: -2;
     }
 
 /* 麵包屑  */
@@ -73,6 +76,7 @@ div.left_top div.blog_2{
     border-top-left-radius: 25px;
     box-shadow: 0px -5px 0px #f6cf5f;
     margin-bottom: 400px;
+    z-index: 1;
 }
 div.left_top div.blog_2_title{
     display: inline-block;
@@ -91,8 +95,8 @@ div.left_top div.hori_line{
 
 div.blog_2_ul div.blog_2_bg1{
     display: inline-block;
-    border: 1px solid black;
     width: 100px;
+    background-image: url("../images/tab/100135/patten2.jpg");
     height: 135px;
     margin-left: 100px;
     margin-top: 90px;
@@ -117,7 +121,7 @@ div.blog_2_ul div.blog_2_1_content{
 
 div.blog_2_ul2 div.blog_2_bg2{
     display: inline-block;
-    border: 1px solid black;
+    background-image: url("../images/tab/100135/patten1.jpg");
     width: 100px;
     height: 135px;
     margin-left: 100px;
@@ -165,6 +169,7 @@ div.left_bottom div.blog_3{
     border-top-left-radius: 25px;
     box-shadow: 0px -5px 0px #f6cf5f;
     margin-bottom: 400px;
+    z-index: 1;
 }
 div.left_bottom div.blog_3_title{
     display: inline-block;
@@ -183,7 +188,7 @@ div.left_bottom div.hori_line{
 
 div.blog_3_ul div.blog_3_bg{
     display: inline-block;
-    border: 1px solid black;
+    background-image: url("../images/tab/100135/patten1.jpg");
     width: 100px;
     height: 135px;
     margin-left: 100px;
@@ -209,7 +214,7 @@ div.blog_3_ul div.blog_3_1_content{
 
 div.blog_3_u2 div.blog_3_bg2{
     display: inline-block;
-    border: 1px solid black;
+    background-image: url("../images/tab/100135/patten1.jpg");
     width: 100px;
     height: 135px;
     margin-left: 100px;
@@ -238,6 +243,7 @@ div.blog_3 div.t1_button{
     height: 70px;
     background-image: url("../images/arrow.png");
     background-repeat: no-repeat;
+    z-index: 2;
 }
 div.blog_3 div.t1_button span{
     font-size: 48px;
@@ -246,6 +252,7 @@ div.blog_3 div.t1_button span{
     position:relative;
     top: -5px;
     display: inline-block;
+    z-index: 2;
 }
 
 
@@ -299,7 +306,7 @@ div.blog1 div.blog_1_ul{
 div.blog_1 div.blog_1_bg{
     width: 100px;
     height: 135px;
-    border: 1px solid black;
+    background-image: url("../images/tab/100135/p2.jpg");
     margin-left: 55px;
     margin-top: 90px;
     display: inline-block;
@@ -326,7 +333,7 @@ div.blog_1 div.blog_1_1_content{
 }
 div.blog_1_ul2 div.blog_2_bg{
     display: inline-block;
-    border: 1px solid black;
+    background-image: url("../images/tab/100135/p1.jpg");
     width: 100px;
     height: 135px;
     margin-top: 60px;

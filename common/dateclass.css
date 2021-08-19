@@ -92,7 +92,7 @@ div.item1_block div.item1_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
+    background-image: url("../images/class/class10.jpg");
     margin-bottom: 40px;
 }
 div.item1_block div.item1_title{
@@ -125,7 +125,8 @@ div.item2_block div.item2_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
+    background-image: url("../images/online-class1-min.jpg");
+    background-size: cover;
     margin-bottom: 40px;
 }
 div.item2_block div.item2_title{
@@ -158,7 +159,8 @@ div.item3_block div.item3_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
+    background-image: url("../images/shutterstock_443724343-min-e1569580014716.jpg");
+    background-size: cover;
     margin-bottom: 40px;
 }
 div.item3_block div.item3_title{
@@ -192,8 +194,9 @@ div.item4_block div.item4_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 40px;
+    background-image: url("../images/shutterstock_469972379-2-min-1-e1569574908944.jpg");
+    background-size: cover;
 }
 div.item4_block div.item4_title{
     font-size: 36px;
@@ -225,7 +228,8 @@ div.item5_block div.item5_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
+    background-image: url("../images/class/class3.jpg");
+    background-size: cover;
     margin-bottom: 40px;
 }
 div.item5_block div.item5_title{
@@ -258,8 +262,9 @@ div.item6_block div.item6_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 40px;
+    background-image: url("../images/class/class5.jpg");
+    background-size: cover;
 }
 div.item6_block div.item6_title{
     font-size: 36px;
@@ -292,7 +297,8 @@ div.item7_block div.item7_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
+    background-image: url("../images/class/class2.jpg");
+    background-size: cover;
     margin-bottom: 40px;
 }
 div.item7_block div.item7_title{
@@ -325,8 +331,9 @@ div.item8_block div.item8_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 40px;
+    background-image: url("../images/uklele.png");
+    background-size: cover;
 }
 div.item8_block div.item8_title{
     font-size: 36px;
@@ -358,8 +365,8 @@ div.item9_block div.item9_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 40px;
+    background-image: url("../images/online-cajon-class.jpg");
 }
 div.item9_block div.item9_title{
     font-size: 36px;
@@ -392,7 +399,8 @@ div.item10_block div.item10_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
+    background-image: url(../images/online-cajon-class.jpg);
+    background-size: cover;
     margin-bottom: 40px;
 }
 div.item10_block div.item10_title{
@@ -425,8 +433,9 @@ div.item11_block div.item11_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 40px;
+    background-image: url(../images/class/class8.jpg);
+    background-size: cover;
 }
 div.item11_block div.item11_title{
     font-size: 36px;
@@ -458,8 +467,9 @@ div.item12_block div.item12_bg{
     margin-top: 20px;
     width: 300px;
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 40px;
+    background-image: url("../images/class/class8.jpg");
+    background-size: cover;
 }
 div.item12_block div.item12_title{
     font-size: 36px;
