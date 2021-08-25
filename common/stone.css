@@ -33,3 +33,17 @@ main{
     width: 1200px;
     margin: 0 auto;
 }
+div.left{
+    width: 640px;
+}
+div.right{
+    width: 560px;
+}
+/* div.container{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+} */
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "#";
+}
