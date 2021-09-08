@@ -1,123 +1,45 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
-
-div.the_top{
-    margin: 0 auto;
-    position: relative;
-}
-div.header{
-    position: absolute;
-    width: 1200px;
-    height: 770px;
-    top: 0px;
-    left: 50%;
-    transform: translate(-50%);
-    
-
-}
-div.sticky{
-    position: sticky;
+header.header{
+    display: block;
+    width: 100%;
+    position: fixed;
     top: 0px;
     z-index: 10;
+    background-color: white;
 }
-div.header div.header_nav{
+header.header div.header_nav{
+    justify-content: center;
     display: flex;
-    height:80px;
-    padding: 0px;
     font-size: 16px;
-    line-height: 80px;
-    width: 1200px;
-    justify-content:stretch;
+    line-height: 60px;
+    width: 100%;
     text-align: center;
-    
 }
-div.header_nav div.nav1{
-    background-color: rgba(0,0,0,0);
+div.header_nav div.nav{
+    color: black;
     width: 80px;
-    
-    
+    height: 60px;
+}
+div.header_nav div.nav:hover{
+    color: #f6cf5f;
+}
+div.nav1 div.img{
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
 }
 div.header_nav div.nav2{
-    background-color: rgba(0,0,0,0);
-    width: 80px;
-    
+    width: 160px;
+    height: 60px;
 }
-div.header_nav div.nav3{
-    background-color: rgba(0,0,0,0);
-    color: white;
-    width: 80px;
-    
+div.nav2 div.img{
+    margin-left: 20px;
+    width: 120px;
+    height: 60px;
 }
-div.header_nav div.nav4{
-    background-color: rgba(0,0,0,0);
-    color: white;   
-    width: 80px; 
-    
-}
-div.header_nav div.nav5{
-    background-color: rgba(0,0,0,0);
-    color: white;
-    width: 80px;
-    
-}
-div.header_nav div.nav6{
-    background-color: rgba(0,0,0,0);
-    color: white;
-    width: 80px;
-    
-}
-div.header_nav div.nav7{
-    background-color: rgba(0,0,0,0);
-    color: white;
-    width: 80px;
-    
-}
-div.header_nav div.nav8{
-    background-color: rgba(0,0,0,0);
-    color: white;
-    width: 80px;
-    
-}
-div.header_nav div.nav9{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
-}
-div.header_nav div.nav10{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
-}
-div.header_nav div.nav11{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
-}
-div.header_nav div.nav12{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
-}
-div.header_nav div.nav13{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
-}
-div.header_nav div.nav14{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
-}
-div.header_nav div.nav15{
-    color: black;
-    background-color: rgba(255, 255, 255, 100);
-    width: 80px;
-    
+div.header_nav a{
+    text-decoration: none;
 }

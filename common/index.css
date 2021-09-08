@@ -1,204 +1,87 @@
 @import "../common/all.css";
 @import "../common/header.css";
-@import "../common/banner.css";
 @import "../common/footer.css";
+
+
+
+
+
+/* 輪播 */
+html,
+body {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+  /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 自己 */
 
 main{
     width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-/* 左側 */
-div.left{
-    width: 640px;
 }
 
-/* 右側 */
-div.right{
-    width: 560px;
+/* section1 */
+/* 師資介紹標題 */
+div.section_top{
+    width: 50%;
 }
-
-/* 師資介紹 */
-div.section1 div.title{
-    background-color: white;
-    transform: translateY(-80px);
+div.section_top div.title{
+    /* background-color: white; */
     display: block;
     z-index: 1;
-    font-size: 48px;
-    line-height: 160px;
-    width:640px;
-    padding-left: 100px;
-}
-div.section1 div.t1{
-    font-size: 40px;
-    margin-top: 200px;
-    padding-left: 100px;
-}
-div.section1 div.t1_content{
-    font-size: 28px;
-    padding-left: 100px;
-    margin-top: 80px;
-}
-div.section1 div.t1_button{
-    margin-left: 100px;
-    margin-top: 650px;
-    margin-bottom: 200px;
-    height: 70px;
-    background-image: url("../images/arrow.png");
-    background-repeat: no-repeat;
-}
-div.section1 div.t1_button span{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    top: -5px;
-    display: inline-block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 樓梯圖片 */
-
-div.section2 div.stairs_bg{
-    background-image: url("../images/stairs.png");
-    display: block;
-    width: 640px;
-    height: 1445px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* 樂譜分享底下圖片塊 */
-/* div.block_banner_block{
-    z-index: ;
-    width: 100%;
-    height: 400px;
-    border: 1px solid red;
-    position: absolute;
-    margin-top: 285px;
-} */
-
-
-
-
-
-/* BLOG左樂譜 */
-
-div.section2 div.title3{
-    margin-top:110px;
-    font-size: 48px;
+    font-size: 36px;
+    width:100%;
+    padding-top: 60px;
     text-align: center;
-    margin-bottom: 50px;
-}
-div.section2 div.blog_1{
-    border-top-left-radius: 25px;
-    box-shadow: 0px -5px 0px #f6cf5f;
-    display: block;
-}
-
-div.blog_1 div.blog_1_title{
-    display: inline-block;
-    margin-top: 60px;
-    font-size: 28px;
-    margin-left: 60px;
-}
-div.blog_1 div.hori_line{
-    display: block;
-    border-top: 2px solid black;
-    width: 440px;
-    margin-left: 60px;
-    margin-top: 10px;
-}
-div.blog1 div.blog_1_ul{
-    width: 280px;
-    border: 10px solid rgb(128, 129, 128);
-}
-div.blog_1 div.blog_1_bg{
-    width: 100px;
-    height: 135px;
-    margin-left: 55px;
-    background-image: url("../images/tab/100135/p2.jpg");
-    margin-top: 90px;
-    display: inline-block;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}   
-
-
-div.blog_1 div.blog_1_1_text_title{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 24px;
-    margin-left: 35px;
-    margin-top: 90px;
-}
-div.blog_1 div.blog_1_1_text_title span{
-    font-size: 20px;
-}
-
-
-div.blog_1 div.blog_1_1_content{
-    font-size: 16px;
-    margin-top: 10px;
-
-}
-div.blog_1_ul2 div.blog_2_bg{
-    display: inline-block;
-    width: 100px;
-    background-image: url("../images/tab/100135/p1.jpg");
-    height: 135px;
-    margin-top: 60px;
-    margin-left: 55px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_1_ul2 div.blog_1_2_text_title{
-    vertical-align: top;
-    margin-top: 60px;
-    display: inline-block;
-    margin-left: 35px;
-    font-size: 24px;
-}
-div.blog_1_ul2 div.blog_1_2_text_title span{
-    font-size: 20px;
-}
-div.blog_1_ul2 div.blog_1_2_content{
-    margin-left: 35px;
-    margin-top: 10px;
-    font-size: 16px;
-}
-div.section2 div.t1_button{
-    width: 650px;
-    height: 70px;
-    background-image: url("../images/arrow_long.png");
-    background-repeat: no-repeat;
-    clear: both;
-    margin-left: 240px;
-    margin-top: 330px;
-    margin-bottom: 70px;
-}
-div.section2 div.t1_button span{
-    font-size: 48px;
     font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    top:-5px;
-    display: inline-block;
 }
 
 
@@ -207,7 +90,67 @@ div.section2 div.t1_button span{
 
 
 
+/* 師資介紹總表 */
+div.section_body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
+
+div.section_body div.section1_left{
+    width: 50%;
+    display: block;
+}
+
+div.section1_left div.s1l_block{
+    display: block;
+    width: 100%;
+}
+div.s1l_block div.t1{
+    padding-top: 60px;
+    font-size: 28px;
+    padding-left: 100px;
+}
+div.s1l_block div.t1_guitar{
+    padding-top: 200px;
+}
+div.s1l_block div.t1_content{
+    font-size: 20px;
+    padding-left: 150px;
+    margin-top: 60px;
+}
+
+
+div.sl1_block2{
+    display: block;
+    width: 100%;
+}
+div.section_body a{
+    text-decoration: none;
+}
+div.t1_button{
+    border-radius: 50px;
+    background-color: #A04724;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    padding: 2px;
+    font-weight: bold;
+    color: white;
+    
+}
+div.sl1_block2 div.tb1{
+    margin-top: 550px;
+}
+div.t1_button:hover{
+    color: #f6cf5f;
+}
 
 
 
@@ -216,8 +159,15 @@ div.section2 div.t1_button span{
 /* 師資圖片 */
 
 
-
-div.section3 div.teacher_bg{
+div.section_body div.section1_right{
+    width: 50%;
+    display: block;
+}
+div.section1_right div.sr1_block{
+    display: block;
+    width: 100%;
+}
+div.sr1_block div.teacher_bg{
     margin-top: 160px;
     width: 540px;
     height: 1100px;
@@ -225,185 +175,169 @@ div.section3 div.teacher_bg{
     z-index: 0;
     position: relative;
 }
-div.section3 div.circle1{
+div.sr1_block div.circle{
     border-radius: 50%;
     width: 180px;
     height: 180px;
     z-index: 1;
-    margin-left: 200px;
     position: relative;
-    
+}
+div.sr1_block div.circle1{
+    margin-left: 200px;
     top: -90px;
     background-image: url("../images/teacher/RYAN.png");
 }
-div.section3 div.circle1 span{
+div.sr1_block div.span{
     background-color: white;
     width: 150px;
     font-size: 20px;
     display: inline-block;
     text-align: center;
     position: relative;
+    opacity: .8;
+}
+div.circle1 div.span1{
     top: 135px;
     left: 100px
 }
-div.section3 div.circle2{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    z-index: 1;
+div.sr1_block div.circle2{
     margin-left: -90px;
     margin-top:  25px;
     background-image: url("../images/teacher/sin.png");
-    
 }
-div.section3 div.circle2 span{
-    background-color: white;
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+div.circle2 div.span2{
     top: 50px;
     left: 100px
 }
-div.section3 div.circle3{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    z-index: 1;
+div.sr1_block div.circle3{
     margin-left: 355px;
     margin-top: -180px;
     background-image: url("../images/teacher/hank.png");
 }
-div.section3 div.circle3 span{
-    background-color: white;
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+div.circle3 div.span3{
     top: 20px;
     left: -100px
 }
-div.section3 div.circle4{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    z-index: 1;
+div.sr1_block div.circle4{
     margin-left: 200px;
     margin-top: 75px;
     background-image: url("../images/teacher/jammy.png");
 }
-div.section3 div.circle4 span{
-    background-color: white;
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+div.circle4 div.span4{
     top: 70px;
     left: -100px
 }
-div.section3 div.circle5{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    z-index: 1;
+div.sr1_block div.circle5{
     margin-left: -90px;
     margin-top: 75px;
     background-image: url("../images/teacher/grace.png");
 }
-div.section3 div.circle5  span{
-    background-color: white;
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+div.circle5  div.span5{
     top: 25px;
     left: 150px
 }
-div.section3 div.circle6{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    z-index: 1;
+div.sr1_block div.circle6{
     margin-left: 355px;
     margin-top: -180px;
     background-image: url("../images/teacher/blake.png");
 }
-div.section3 div.circle6 span{
-    background-color: white;
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+div.circle6 div.span6{
     top: 120px;
     left: -5 0px
 }
-div.section3 div.circle7{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    z-index: 1;
+div.sr1_block div.circle7{
     margin-left: 150px;
     margin-top: 90px;
     background-image: url("../images/teacher/wang.png");
 }
-div.section3 div.circle7 span{
-    background-color: white;
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+div.circle7 div.span7{
     top: 45px;
     left: 150px
 }
 
-div.right_block{
-    margin-top: 85px;
-    height: 400px;
-    background-image: url("../images/S__58220554.jpg");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section2 */
+div.section_body div.section2{
+    display: flex;
+    width: 100%;
+}
+
+/* 樓梯圖片 */
+div.section2 div.section2_left{
+    display: block;
+    width: 50%;
+}
+div.section2_left div.sl2_block{
+    width: 100%;
+    display: block;
+}
+
+div.sl2_block div.stairs_bg{
+    background-image: url("../images/stairs.png");
+    display: block;
+    width: 600px;
+    height: 1445px;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 
 
-
-
-
-/* 最新影片 */
-div.section4{
-    padding-top: 81px;
-    width: 560px;
+/* 右側圖片 */
+div.section2 div.section2_right{
+    width: 50%;
+    display: block
+}
+div.section2_right div.sr2_block{
+    width: 100%;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-div.section4 div.block_bg{
+
+
+
+
+/* 最新影片 */
+
+div.sr2_block div.block_bg{
     display: inline-block;
     align-items: center;
-    width: 640px;
+    width: 600px;
 }
-div.section4 div.title2{
-    font-size: 48px;
+div.sr2_block div.title2{
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
     text-align: center;
 }
-div.section4 div.t2_video{
-    height: 330px;
-    width: 440px;
+div.sr2_block div.t2_video{
+    height: 360px;
+    width: 480px;
     margin-top: 65px;
 }
-div.section4 div.t2_content{
-    margin-top: 80px;
-    font-size: 36px;
+div.sr2_block div.t2_content{
+    margin-top: 20px;
+    font-size: 20px;
     margin-left: 36px;
 }
-div.section4  div.t2_video_pic{
-    margin-top: 145px;
-    width: 560px;
+div.sr2_block div.t2_video_pic{
+    margin-top: 100px;
+    width: 480px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -418,180 +352,203 @@ div.t2_video_pic div.t2_video_pic2{
     height: 125px;
     display: inline-block;
 }
-div.section4 div.t1_button{
-    width: 360px;
+div.sr2_block div.tb2{
     margin-left: 75px;
-    margin-top: 200px;
-    height: 70px;
-    background-image: url("../images/arrow.png");
-    background-repeat: no-repeat;
+    margin-top: 100px;
 }
-div.section4 div.t1_button span{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    top: -5px;
+
+
+
+
+
+
+
+
+
+/* BLOG左樂譜 */
+
+/* section3 */
+div.section_body div.section3{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* 樂譜分享 */
+div.section3 div.section3_left{
+    display: block;
+    width: 50%;
+}
+div.section3_left div.sl3_block{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+div.sl3_block div.title3{
+    margin-top:110px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.section3 div.blog{
+    border-top-left-radius: 25px;
+    box-shadow: 0px -5px 0px #f6cf5f;
+    display: block;
+    z-index: 1;
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+
+div.blog div.title{
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 28px;
+    margin-left: 60px;
+}
+div.blog div.hori_line{
+    display: block;
+    border-top: 2px solid black;
+    width: 440px;
+    margin-left: 60px;
+}
+div.section3 div.blog_bg{
+    width: 100px;
+    height: 135px;
+    margin-left: 55px;
+    margin-top: 90px;
     display: inline-block;
 }
 
+div.blog div.blog_text_title{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    margin-left: 35px;
+    margin-top: 90px;
+}
+div.blog div.blog_text_title span{
+    font-size: 20px;
+}
 
+
+div.blog div.blog_content{
+    margin-top:10px;
+    font-size: 16px;
+}
+
+
+div.sl3_block div.tb3{
+    margin-top: 300px;
+    left: 300px;
+    position: relative;
+}
+
+
+
+
+
+
+/* 影片右側間隔圖片 */
+div.sr3_block div.img_block{
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+div.img_block img{
+    width: 100%;
+    height: 100%;
+    top: 250px;
+    position: absolute;
+    z-index: -1;
+}
 
 
 
 
 /* BLOG右  基礎樂理 */
-/* div.section5{
-    width: 100%;
-} */
-div.section5 div.blog_2{
-    margin-top: 520px;
-    border-top-left-radius: 25px;
-    box-shadow: 0px -5px 0px #f6cf5f;
-    margin-bottom: 400px;
-}
-div.blog_2 div.blog_2_title{
-    display: inline-block;
-    font-size: 28px;
-    margin-top: 60px;   
-    margin-left: 60px;
 
-}
-div.blog_2 div.hori_line{
+div.section_body div.section3_right{
     display: block;
-    border-top: 2px solid black;
-    width: 440px;
-    margin-left: 60px;
-    margin-top: 10px;
+    width: 50%;
 }
-
-div.blog_2_ul div.blog_1_bg{
-    display: inline-block;
-    border: 1px solid black;
-    width: 100px;
-    height: 135px;
-    margin-left: 100px;
-    margin-top: 90px;
-    background-image: url("../images/tab/100135/patten1.jpg") ;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
+div.section3_right div.sr3_block{
+    width: 100%;
+    display: block;
+    z-index: 0;
 }
-div.blog_2_ul div.blog_2_1_text_title{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 24px;
-    margin-top: 90px;
-    margin-left: 35px;
-}
-div.blog_2_ul div.blog_2_1_text_title span{
-    font-size: 20px;
-}
-div.blog_2_ul div.blog_2_1_content{
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-
-
-div.blog_22_ul div.blog_2_bg{
-    display: inline-block;
-    border: 1px solid black;
-    width: 100px;
-    height: 135px;
-    margin-left: 100px;
-    margin-top: 60px;
-    background-image: url("../images/tab/100135/patten2.jpg");
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_22_ul div.blog_2_2_text_title{
-    vertical-align: top;
-    margin-top: 65px;
-    display: inline-block;
-    margin-left: 35px;
-    font-size: 24px;
-}
-div.blog_22_ul div.blog_2_2_text_title span{
-    font-size: 20px;
-}
-div.blog_22_ul div.blog_2_2_content{
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-
 
 
 
 
 /* 最底下商品欄 */
-div.section6{
-    display: flex;
+div.section_body div.section4{
+    width: 100%;
+    /* display: flex; */
     background-color: black;;
 }
-div.section6 div.block{
-    position: relative;
+div.section4 div.s4_block{
+    width: 100%;
+    display: block;
 }
-div.section6 div.item{
+div.s4_block div.title{
+    width: 50%;
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    z-index: 3;
+    margin-top: 60px;
+    text-align: center;
+}
+div.s4_block div.block_top{
+    display: flex;
+}
+div.block_top div.item{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 675px;
     height: 675px;
-    margin-top: 305px;
-    margin-left: 115px;
-    margin-bottom: 305px;
-    z-index: 2;
-}
-div.item div.item_bg1{
-    background-image: url="#";
+    margin-top: 150px;
+    margin-left: 175px;
+    z-index: 1;
 }
 
 /* 最底層商品右側文字 */
 
-div.section7{
-    display: flex;
-    background-color: black;
-    padding-bottom: 380px;
+div.s4_block div.content{
+    width: 30%;
+    display: inline-block;
+    position: relative;
 }
 
-div.section7 div.title{
+div.content div.title{
     position: relative;
+    margin-top: 150px;
     display: block;
-    left: 80px;
+    left: -80px;
     top: 175px;
-    font-size: 60px;
+    font-size: 28px;
     color: #f6cf5f;
     z-index: 2;
-    padding-bottom: 400px;
 }
-div.block{
-    width: 400px;
-
-}
-div.block div.content{
+div.content div.text{
     position: relative;
     display: inline-block;
-    left: 300px;
+    left: 120px;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     z-index: 2;
+    padding-top: 300px;
 }
-div.section7 div.t1_button{
-    width: 650px;
-    height: 70px;
-    background-image: url("../images/arrow_long.png");
-    background-repeat: no-repeat;
-    margin-top: 900px;
-    left: 375px;
-    position: absolute;
-    clear: both;
-    background-color: black;
-    
+div.s4_block div.block_bottom{
+    display: block;
 }
-div.section7 div.t1_button span{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    /* top: -5px; */
-    display: inline-block;
+div.block_bottom div.tb4{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }

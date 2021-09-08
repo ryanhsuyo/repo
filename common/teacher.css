@@ -1,72 +1,57 @@
 @import "../common/all.css";
 @import "../common/header.css";
-@import "../common/banner2.css";
 @import "../common/footer.css";
 
-div.top_title{
-    position: absolute;
-    width: 200px;
-    top: 200px;
-    left: 960px;
-    z-index: 1;
-    color: white;
-    font-size: 48px;
+
+
+div.section_top{
+    width: 50%;
 }
-div.top_block{
-    width: 640px;
-    height: 120px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 360px;
-}
-div.title{
-    background-color: white;
-    transform: translateY(-80px);
+div.section_top div.title{
+    /* background-color: white; */
     display: block;
     z-index: 1;
-    font-size: 48px;
-    line-height: 160px;
-    width:640px;
-    padding-left: 100px;
-}
-main{
-    width: 1200px;
-    margin: 0 auto;
+    font-size: 36px;
+    width:100%;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
 }
 
-
-
-
-
-
-
-
-div.main{
+div.section_body{
+    width: 100%;
+    display: block;
     margin: 0 auto;
     margin-top: 260px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-div.main div.teacher_block{
+
+div.section_body div.teacher_block{
     /* background-image: url(/images/test.png); */
     display: flex;
     align-items: center;
     flex-grow: 0;
-    width: 1060px;
     margin: 0 auto;
     justify-content: center;
 }
-div.teacher_block div.teacher1_bg{
+div.teacher_block div.teacher_bg{
     z-index: 0;
+    transform:skew(-7.5deg);
+    width: 140px;
+    height: 450px;
+    position: relative;
+    object-fit: cover;
+}
+/* div.teacher_block div.teacher1_bg{
+    z-index: 0; 
     transform:skew(-7.5deg);
     width: 140px;
     height: 450px;
     background-image: url(../images/teacher/t1.jpg);
     background-size: cover;
     position: relative;
-}
+} */
 div.teacher1_bg div.name{
     position: absolute;
     display: inline-block;

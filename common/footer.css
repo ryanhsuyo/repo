@@ -42,7 +42,5 @@ div.footer div.footer_right{
 div.footer div.logo_block{
     width: 200px;
     height: 200px;
-    background-image: url(../images/bhlogo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
 }

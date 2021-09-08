@@ -29,21 +29,561 @@ div.title{
     width:640px;
     padding-left: 100px;
 }
+
 main{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
+
+
+div.top{
+    width: 100%;
+    margin-bottom: 50px;
+}
+div.top nav.breadcrumb{
+    font-size: 16px;
+
+}
+nav.breadcrumb ol.breadcrumb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+ol.breadcrumb li.bread-item{
+    display: inline-block;
+    width: 40%;
+
+}
+ol.breadcrumb form.search{
+    display: inline-block;
+    text-align: end;
+    width: 40%;
+}
+
+
+
+
+
+
+div.stone_blog{
+    display: flex;
+}
+
+
+
+
 div.left{
-    width: 640px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
 }
-div.right{
-    width: 560px;
+/* 左列導覽 */
+div.left div.item_ul{
+
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
-/* div.container{
-    border: 1px solid black;
+/* 商品分類 */
+div.item_ul div.item_title{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    width: 200px;
+    text-align: center;
+}
+/* 木吉他 */
+div.item_ul div.item_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+div.item_block div.item_t1{
+    align-items: center;
     width: 100px;
-    height: 100px;
-} */
-.breadcrumb-item + .breadcrumb-item::before {
-    content: "#";
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #F6CF5F;
+    font-size: 20px;
+    color: black;
 }
+div.item_block div.item_i_block{
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    padding-left: 50px;
+}
+div.item_i_block div.item_i1{
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+div.item_i_block div.item_i2{
+    display: block;
+    font-size: 16px;
+}
+div.item_i_block div.item_i3{
+    display: block;
+    font-size: 16px;
+}
+/* 烏克麗麗 */
+div.item_ul div.item_block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+div.item_block2 div.item_t2{
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #F6CF5F;
+    font-size: 20px;
+    color: black;
+}
+div.item_block2 div.item_i_block2{
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    padding-left: 50px;
+}
+div.item_i_block2 div.item_i1{
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+/* 木箱鼓 */
+div.item_ul div.item_block3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+div.item_block3 div.item_t3{
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #F6CF5F;
+    font-size: 20px;
+    color: black;
+}
+div.item_block3 div.item_i_block3{
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    padding-left: 50px;
+}
+div.item_i_block3 div.item_i1{
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+/* 配件 */
+div.item_ul div.item_block4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+div.item_block4 div.item_t4{
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #F6CF5F;
+    font-size: 20px;
+    color: black;
+}
+div.item_block4 div.item_i_block4{
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    padding-left: 50px;
+}
+div.item_i_block4 div.item_i1{
+    display: block;
+    font-size: 16px;
+}
+div.item_i_block4 div.item_i2{
+    display: block;
+    font-size: 16px;
+}
+div.item_i_block4 div.item_i3{
+    display: block;
+    font-size: 16px;
+}
+
+
+
+/* 特價專區 */
+div.item_ul div.item_block5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+div.item_block5 div.item_t5{
+    align-items: center;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #F6CF5F;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+
+
+div.right{
+    width: 75%;
+}
+div.right div.item_ul2{
+    width: 100%;
+    display: block;
+}
+div.item_ul2 div.special{
+    display: block;
+}
+/* 期間限定標題 */
+div.special div.special_title{
+    padding-left: 50px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* 期限區 */
+div.special div.special_block{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+} 
+/* 期限區第一商品 */
+div.special_block div.special1{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.special1 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.special1 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.special1 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+div.special1 div.price{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+/* 期限區第二商品 */
+div.special_block div.special2{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.special2 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.special2 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.special2 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+div.special2 div.price{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* 期限區第三商品 */
+div.special_block div.special3{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.special3 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.special3 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.special3 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+div.special3 div.price{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+div.item_ul2 div.cost_block{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* 中間圖片 */
+
+div.cost_block div.cost_img{
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+div.item_ul2 div.new{
+    display: block;
+}
+/* 新品標題 */
+div.new div.new_title{
+    padding-left: 50px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* 新品區 */
+div.new div.new_block{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+} 
+/* 新品區第一商品 */
+div.new_block div.new1{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.new1 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.new1 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.new1 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+div.new1 div.price{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+
+/* 新品區第二商品 */
+div.new_block div.new2{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.new2 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.new2 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.new2 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+div.new2 div.price{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* 新品區第三商品 */
+div.new_block div.new3{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.new3 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.new3 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.new3 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+div.new3 div.price{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+div.item_ul2 div.hot{
+    display: block;
+}
+/* 熱門標題 */
+div.hot div.hot_title{
+    padding-left: 50px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* 熱門區 */
+div.hot div.hot_block{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+} 
+/* 熱門區第一商品 */
+div.hot_block div.hot1{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.hot1 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.hot1 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.hot1 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+div.hot1 div.price{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+
+/* 熱門區第二商品 */
+div.hot_block div.hot2{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.hot2 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.hot2 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.hot2 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+div.hot2 div.price{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* 熱門區第三商品 */
+div.hot div.hot3{
+    display: block;
+    box-shadow: 3px 3px 10px black;
+}
+div.hot3 div.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+div.hot3 div.name{
+    display: block;
+    font-size: 20px;
+}
+div.hot3 div.o_price{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+div.hot3 div.price{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+/* .breadcrumb-item + .breadcrumb-item::before {
+    content: "#";
+} */
