@@ -77,6 +77,7 @@ div.footer div.logo_block{
         width: 100%;
     }
     div.footer_middle div.footer_title{
+        margin-top: 5%;
         text-align: center;
         color: white;
         font-size: 20px;
@@ -85,9 +86,10 @@ div.footer div.logo_block{
 
     div.footer_middle div.footer_content{
         color: white;
-        font-size: 12px;
+        font-size: 8px;
         margin: 0 auto;
-        width: 50%;
+        width: 80%;
+        margin-bottom: 10px;
     }
     div.footer div.footer_right{
         display: none;
@@ -119,15 +121,18 @@ div.footer div.logo_block{
         padding-bottom: 20px;
     }
     div.footer div.footer_left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
     div.footer_left div.map{
+        align-items: center;
         text-align: center;
         width:  100%;
-        align-items: center;
     }
     div.footer div.footer_middle{
-        width: 100%;
+        width: 80%;
     }
     div.footer_middle div.footer_title{
         text-align: center;
@@ -137,15 +142,16 @@ div.footer div.logo_block{
         color: white;
         font-size: 20px;
         vertical-align: top;
-        width: 100%;
+        width: 80%;
     }
 
     div.footer_middle div.footer_content{
         color: white;
         font-size: 12px;
         margin-top: 20px;
-        text-align: center;
         width: 100%;
+        text-align: left;
+       
     }
     div.footer div.footer_right{
         display: none;

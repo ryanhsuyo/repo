@@ -847,6 +847,7 @@ div.section_body div.section1_right{
     
     .img-wrap img {
         width: 30%;
+        height: 90%;
         margin-top: 16px;
     }
     .button2_block{
@@ -1418,7 +1419,7 @@ div.block_top div.item{
         top: 0;
         font-size: 20px;
         color: #f6cf5f;
-        z-index: 2;
+        z-index: 7;
         margin: 0;
     }
     div.content div.text{
@@ -1427,7 +1428,7 @@ div.block_top div.item{
         display: inline-block;
         color: white;
         font-size: 16px;
-        z-index: 2;
+        z-index: 7;
         padding-top: 30px;
     }
     div.s4_block div.block4_bottom{
