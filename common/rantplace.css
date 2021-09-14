@@ -48,8 +48,6 @@
     justify-content: center;
 }
 .left .pic{
-    border:1px solid red;
-    background: cornflowerblue;
     height: 30%;
     width: 30%;
 }
@@ -287,6 +285,17 @@
     }
     .top .right{
         width: 100%;
+    }
+    .left .pic{
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .right .title{
         display: flex;
