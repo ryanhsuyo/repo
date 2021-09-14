@@ -251,7 +251,6 @@ transition-delay: 0.075s;
         font-size: 24px;
         font-weight: bold;
         width: 200px;
-        text-align: center;
     }
     div.nav20 a{
         text-decoration: none;
@@ -278,7 +277,7 @@ button.btn_switch{
     display: none;
 }
 /* 行動版時，將按鈕顯示出來 */
-767.98px
+@media screen and (max-width: 767.98px){
     button.btn_switch{
     display: inline-block;
     }
