@@ -10,11 +10,12 @@
         rel="stylesheet"
         href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <!-- <link href="dist/hamburgers.css" rel="stylesheet"> -->
 </head>
 <body>
     <header class="header">
         <div class="header_nav">
-            <a href="./index.html"></a><div class="nav nav1"><div class="img"><img src="./images/Brighthouse only_logo.svg"></div></div></a>
+            <a href="./index.html"><div class="nav nav1"><div class="img"><img src="./images/Brighthouse only_logo.svg"></div></div></a>
             <a href="./index.html"><div class="nav nav2"><div class="img"><img src="./images/Brighthouse text_CMYK.svg"></div></div></a>
             <div class="nav"></div>
             <div class="nav"></div>
@@ -28,16 +29,32 @@
             <div class="nav"></div>
             <!-- <div class="nav"></div> -->
             <!-- <div class="nav"></div> -->
-            <!-- <div class="nav"></div> -->
+            <div class="nav_buger">
+                <button class="hamburger hamburger--elastic" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner">
+                        </span>
+                    </span>
+                </button>
+            </div>
         </div>
-        
+        <div class="main_nav20">
+            <div class="header_nav20">
+                <a href="./teacher.html"><div class="nav20">師資介紹</div></a>
+                <a href="./class.html"><div class="nav20">課程一覽</div></a>
+                <a href="./blog.html"><div class="nav20">B L O G</div></a>
+                <a href="./dateclass.html"><div class="nav20">預約課程</div></a>
+                <a href="./rentplace.html"><div class="nav20">空間租借</div></a>
+                <a href="./stone.html"><div class="nav20">線上商店</div></a>
+            </div>
+        </div>
         
     </header>
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/banner_1.png" alt="png1"> </div>
-            <div class="swiper-slide"><img src="images/banner_1.png" alt="png2"> </div>
-            <div class="swiper-slide"><img src="images/banner_1.png" alt="png3"> </div>
+            <div class="swiper-slide si"><img src="./images/banner/40592200_2271446103127654_5648624692869726208_n.jpg" alt="png1"> </div>
+            <div class="swiper-slide"><img src="./images/banner/2.jpg" alt="png2"> </div>
+            <div class="swiper-slide"><img src="./images/banner/3.jpg" alt="png3"> </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -46,6 +63,10 @@
     
     <main>
         <div class="section_top">
+            <form class="search">
+                <input class="search_bar" type="search" placeholder="搜尋" aria-label="Search">
+                <button class="search_button" type="submit">搜尋</button>
+            </form>
             <div class="title">師資介紹</div>
         </div>
         
@@ -109,15 +130,29 @@
                 <div class="section2_right">
                     <div class="sr2_block">
                         <div class="title2">最新影片</div>
-                        <div class="t2_video"><iframe width="480px" height="360px" src="https://www.youtube.com/embed/rBJ-E99POYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         <div class="t2_content">拉丁節奏講座<br><pre>          2021.03.20</pre></div>
-                        <div class="t2_video_pic">
-                            <div class="t2_video_pic1"><iframe width="200px" height="125px" src="https://www.youtube.com/embed/SFaFpoCvYF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div class="t2_video_pic2"><iframe width="200px" height="125px" src="https://www.youtube.com/embed/081rD8G6aF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="sr2_row">
+                            <div id="player"></div>
+                            <div class="img-wrap">
+                                <img
+                                    src="https://i.ytimg.com/vi_webp/SFaFpoCvYF8/default.webp"
+                                    data-video-id="SFaFpoCvYF8"
+                                />
+                                <img
+                                    src="https://i.ytimg.com/vi_webp/081rD8G6aF0/default.webp"
+                                    data-video-id="081rD8G6aF0"
+                                />
+                                <img
+                                    src="https://i.ytimg.com/vi_webp/rBJ-E99POYU/default.webp"
+                                    data-video-id="rBJ-E99POYU"
+                                />
+                            </div>
                         </div>
-                        <a href="./dateclass.html" target="更多影片" title="更多影片"><div class="t1_button tb2">
-                            更多影片
-                        </div></a>
+                        <div class="button2_block">
+                            <a href="https://www.youtube.com/channel/UCMRVaVoRXaxvlfAoCfGLYtA" target="更多影片" title="更多影片"><div class="t1_button tb2">
+                                更多影片
+                            </div></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,20 +182,21 @@
                                 <div class="blog_text_title">周興哲<br>- 怎麼了<span>(木吉他譜)</span>
                                     <div class="blog_content">2021.01.30<br>華劇(你有念大學嗎?)片尾曲</div>
                                 </div>
-                                <a href="./blog.html">
-                                    <div class="t1_button tb3" a="#">
-                                        <span>查看更多文章</span>
-                                    </div>
-                                </a>
                             </div>
                         </div>
-                        
+                        <div class="buttom3_block">
+                            <a href="./blog.html">
+                                <div class="t1_button tb3" a="#">
+                                    <span>查看更多文章</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="section3_right">
                     <div class="sr3_block">
-                        <div class="img_block"><img src="./images/S__58220554.jpg"></div>
+                        <!-- <div class="img_block"><img src="./images/S__58220554.jpg"></div> -->
                         <div class="blog blog_2">
                             <div class="title">基礎樂理</div>
                             <div class="hori_line"></div>
@@ -169,7 +205,7 @@
                                     <img src="../images/tab/100135/patten1.jpg">
                                 </div>
                                 <div class="blog_text_title">基本和弦(1)<br><span>大調音階和弦</span>
-                                <div class="blog_content">2021.07.24<br>白色代表根音，彈奏前可以<br>試著記下音與根音的關係</div>
+                                    <div class="blog_content">2021.07.24<br>白色代表根音，彈奏前可以<br>試著記下音與根音的關係</div>
                                 </div>
                             </div>
                             <div class="blog_ul">
@@ -177,11 +213,18 @@
                                     <img src="../images/tab/100135/patten2.jpg">
                                 </div>
                                 <div class="blog_text_title">基本音階(1)<br><span>C大調自然音階</span>
-                                <div class="blog_content">2021.03.11<br>是常用到的音階，嘗試看看<br>邊彈邊唱</div>
+                                    <div class="blog_content">2021.03.11<br>是常用到的音階，嘗試看看<br>邊彈邊唱</div>
                                 </div>
                             </div>
                         </div>
-                    </div>   
+                        <div class="buttom3_block2">
+                            <a href="./blog.html">
+                                <div class="t1_button tb3_2" a="#">
+                                    <span>查看更多文章</span>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>  
                 </div>
             </div>
                 
@@ -192,31 +235,31 @@
                     <div class="title">商品預覽</div>
                     <div class="block_top">
                         <div class="item">
-                            <div class="item_bg1"><img src="images/prodoct/item1.jpg" alt="guitar1"></div>
-                            <div class="item_bg2"><img src="images/prodoct/item2.jpg" alt="guitar2"></div>
-                            <div class="item_bg3"><img src="images/prodoct/item3.jpg" alt="guitar3"></div>
-                            <div class="item_bg4"><img src="images/prodoct/item4.jpg" alt="cajon"></div>
-                            <div class="item_bg5"><img src="images/prodoct/item5.jpg" alt="uklele"></div>
-                            <div class="item_bg6"><img src="images/prodoct/item6.jpg" alt="guitar_bag"></div>
-                            <div class="item_bg7"><img src="images/prodoct/item7.jpg" alt="guitar_stand"></div>
-                            <div class="item_bg8"><img src="images/prodoct/item8.jpg" alt="guitar_sting"></div>
-                            <div class="item_bg9"><img src="images/prodoct/item9.jpg" alt="guitar5"></div>
-                            <div class="item_bg10"><img src="images/prodoct/item10.jpg" alt="guitar6"></div>
-                            <div class="item_bg11"><img src="images/prodoct/item11.jpg" alt="guitar7"></div>
-                            <div class="item_bg12"><img src="images/prodoct/item12.jpg" alt="guitar8"></div>
-                            <div class="item_bg13"><img src="images/prodoct/item13.jpg" alt="guitar9"></div>
-                            <div class="item_bg14"><img src="images/prodoct/item14.jpg" alt="guitar10"></div>
-                            <div class="item_bg15"><img src="images/prodoct/item15.jpg" alt="cajon2"></div>
-                            <div class="item_bg16"><img src="images/prodoct/item16.jpg" alt="uklele2"></div>
+                            <div class="item_bg"><img src="images/prodoct/item1.jpg" alt="guitar1"></div>
+                            <div class="item_bg"><img src="images/prodoct/item2.jpg" alt="guitar2"></div>
+                            <div class="item_bg"><img src="images/prodoct/item3.jpg" alt="guitar3"></div>
+                            <div class="item_bg"><img src="images/prodoct/item4.jpg" alt="cajon"></div>
+                            <div class="item_bg"><img src="images/prodoct/item5.jpg" alt="uklele"></div>
+                            <div class="item_bg"><img src="images/prodoct/item6.jpg" alt="guitar_bag"></div>
+                            <div class="item_bg"><img src="images/prodoct/item7.jpg" alt="guitar_stand"></div>
+                            <div class="item_bg"><img src="images/prodoct/item8.jpg" alt="guitar_sting"></div>
+                            <div class="item_bg"><img src="images/prodoct/item9.jpg" alt="guitar5"></div>
+                            <div class="item_bg"><img src="images/prodoct/item10.jpg" alt="guitar6"></div>
+                            <div class="item_bg"><img src="images/prodoct/item11.jpg" alt="guitar7"></div>
+                            <div class="item_bg"><img src="images/prodoct/item12.jpg" alt="guitar8"></div>
+                            <div class="item_bg"><img src="images/prodoct/item13.jpg" alt="guitar9"></div>
+                            <div class="item_bg"><img src="images/prodoct/item14.jpg" alt="guitar10"></div>
+                            <div class="item_bg"><img src="images/prodoct/item15.jpg" alt="cajon2"></div>
+                            <div class="item_bg"><img src="images/prodoct/item16.jpg" alt="uklele2"></div>
                         </div>
                     
                         <div class="content">
-                            <div class="title">夢想來自<br><pre>    一念之間</pre></div>
+                            <div class="title">夢想來自<br>一念之間</div>
                             <div class="text">在繁忙的街道<br>試著偶而放慢腳步<br>創造屬於自己的一頁</div>
                         </div>     
                     </div> 
 
-                    <div class="block_bottom">
+                    <div class="block4_bottom">
                         <a href="./stone.html">
                             <div class="t1_button tb4">
                                 <span>查看更多商品</span>
@@ -228,8 +271,10 @@
         </div>
 
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/header.js"></script>
 
 
 
@@ -242,16 +287,14 @@
         <div class="footer">
             <div class="footer_left">>
                 <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1935907497336!2d121.53022611405326!3d25.061426843347515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a909204797d1%3A0x7a287037d2de813e!2zQnJpZ2h0IEhvdXNlIE11c2ljIFN0dWRpbyDpn7PmqII!5e0!3m2!1sen!2stw!4v1629341701657!5m2!1sen!2stw" width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>;
-                }</scr></div>
+                </scr></div>
             </div>
-            <div class="footer_middle">>
+            <div class="footer_middle">
                 <div class="footer_title">Bright House Studio 燈塔音樂工作室
                     <div class="footer_content">
-                            <span>
-                            <br><pre>Address:  104台北市中山區民權東路二段92巷1弄<br>          24號B1</pre>
-                            <br><pre>Tel:  02-2571-7923</pre>
-                            <br><pre>Email:  brighthousestudio@gmail.com</pre>
-                            </span>
+                            <div>Address:  104台北市中山區民權東路二段92巷1弄24號B1</div>
+                            <div>Tel:  02-2571-7923</div>
+                            <div>Email:  brighthousestudio@gmail.com</div>
                     </div>
                 </div>
             </div>

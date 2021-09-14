@@ -2,374 +2,318 @@
 @import "../common/header.css";
 @import "../common/banner2.css";
 @import "../common/footer.css";
-div.top_title{
-    position: absolute;
-    width: 200px;
-    top: 200px;
-    left: 960px;
-    z-index: 1;
-    color: white;
-    font-size: 48px;
-}
-div.top_block{
-    width: 640px;
-    height: 120px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 360px;
-}
-div.title{
-    background-color: white;
-    transform: translateY(-80px);
-    display: block;
-    z-index: 1;
-    font-size: 48px;
-    line-height: 160px;
-    width:640px;
-    padding-left: 100px;
-}
-main{
-    width: 1200px;
-    margin: 0 auto;
-}
 
-div.main{
-    display: flex;
-}
-div.left{
-    width: 640px;
-    z-index: -2;
-}
-div.right{
-    width: 560px;
-    background-color: #A04724;
-    z-index: -2;
+@media (min-width: 1200px){
+    .section_top{
+        margin-top: 100px;
+        width: 50%;
+    }
+    .section_top .title{
+        display: block;
+        z-index: 1;
+        font-size: 36px;
+        width:100%;
+        text-align: center;
+        font-weight: bold;
     }
 
-/* 麵包屑  */
-div.left div.bread{
-    width: 360px;
-}
-/* 查詢列 */
-div.right div.search_block{
-    display: flex;
-    width: 360px;
-    justify-content: flex-end;
-}
-div.right div.search_icon{
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-}
-div.right div.search{
-    border: 1px solid black;
-    width: 200px;
-}
+    .section_body{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
 
 
+    /* BLOG 通用 */
+    .blog{
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+        /* background-color: #fff; */
+    }
+    .blog .blog_left{
+        display: block;
+        width: 50%;
+    }
+    .blog_left,.blog_right{
+        border-top-left-radius: 25px;
+        box-shadow: 0px -5px 0px #f6cf5f;
+        display: block;
+        z-index: 3;
+        background-color: #fff;
+        padding-bottom: 100px;
+        margin-top: 100px;
+    }
+    .blog .blog_right{
+        display: block;
+        width: 50%;
+        margin-top: 300px;
+    }
 
 
-div.left_top div.blog_2{
-    margin-top: 200px;
-    border-top-left-radius: 25px;
-    box-shadow: 0px -5px 0px #f6cf5f;
-    margin-bottom: 400px;
-    z-index: 1;
-}
-div.left_top div.blog_2_title{
-    display: inline-block;
-    font-size: 28px;
-    margin-top: 60px;   
-    margin-left: 60px;
+    .blog_title{
+        display: inline-block;
+        margin-top: 60px;
+        font-size: 28px;
+        margin-left: 60px;
+    }
 
-}
-div.left_top div.hori_line{
-    display: block;
-    border-top: 2px solid black;
-    width: 440px;
-    margin-left: 60px;
-    margin-top: 10px;
-}
+    .blog .hori_line{
+        display: block;
+        border-top: 2px solid black;
+        width: 70%;
+        margin-left: 60px;
+    }
 
-div.blog_2_ul div.blog_2_bg1{
-    display: inline-block;
-    width: 100px;
-    background-image: url("../images/tab/100135/patten2.jpg");
-    height: 135px;
-    margin-left: 100px;
-    margin-top: 90px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_2_ul div.blog_2_1_text_title{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 24px;
-    margin-top: 90px;
-    margin-left: 35px;
-}
-div.blog_2_ul div.blog_2_1_text_title span{
-    font-size: 20px;
-}
-div.blog_2_ul div.blog_2_1_content{
-    margin-top: 10px;
-    font-size: 16px;
-}
+    .blog_bg{
+        width: 100px;
+        height: 135px;
+        margin-left: 55px;
+        margin-top: 90px;
+        display: inline-block;
+        /* box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6); */
+        box-shadow: 5px 5px 10px black;
+    }
+    .blog_ul .blog_title{
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 24px;
+        margin-left: 35px;
+        margin-top: 90px;
+    }
+    .blog_ul .blog_title span{
+        font-size: 20px;
+    }
 
-
-
-div.blog_2_ul2 div.blog_2_bg2{
-    display: inline-block;
-    background-image: url("../images/tab/100135/patten1.jpg");
-    width: 100px;
-    height: 135px;
-    margin-left: 100px;
-    margin-top: 60px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_2_ul2 div.blog_2_2_text_title{
-    vertical-align: top;
-    margin-top: 65px;
-    display: inline-block;
-    margin-left: 35px;
-    font-size: 24px;
-}
-div.blog_2_ul2 div.blog_2_2_text_title span{
-    font-size: 20px;
-}
-div.blog_2_ul2 div.blog_2_2_content{
-    margin-top: 10px;
-    font-size: 16px;
-}
-div.blog_2 div.t1_button{
-    width: 360px;
-    margin-left: 75px;
-    margin-top: 200px;
-    height: 70px;
-    background-image: url("../images/arrow.png");
-    background-repeat: no-repeat;
-}
-div.blog_2 div.t1_button span{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    top: -5px;
-    display: inline-block;
-}
+    .blog .blog_content{
+        margin-top:10px;
+        font-size: 16px;
+    }
 
 
 
+    /* 按鈕 */
 
-/* 左下 */
 
-div.left_bottom div.blog_3{
-    margin-top: 220px;
-    border-top-left-radius: 25px;
-    box-shadow: 0px -5px 0px #f6cf5f;
-    margin-bottom: 400px;
-    z-index: 1;
-}
-div.left_bottom div.blog_3_title{
-    display: inline-block;
-    font-size: 28px;
-    margin-top: 60px;   
-    margin-left: 60px;
+    .section_body .item_button{
+        border-radius: 50px;
+        background-color: #A04724;
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 2px;
+        font-weight: bold;
+        color: white;
+    }
+    .section_body .item_button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .item_button:hover{
+        color: #f6cf5f;
+    }
+    a{
+        text-decoration: none;
+    }
 
-}
-div.left_bottom div.hori_line{
-    display: block;
-    border-top: 2px solid black;
-    width: 440px;
-    margin-left: 60px;
-    margin-top: 10px;
-}
 
-div.blog_3_ul div.blog_3_bg{
-    display: inline-block;
-    background-image: url("../images/tab/100135/patten1.jpg");
-    width: 100px;
-    height: 135px;
-    margin-left: 100px;
-    margin-top: 90px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_3_ul div.blog_3_1_text_title{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 24px;
-    margin-top: 90px;
-    margin-left: 35px;
-}
-div.blog_3_ul div.blog_3_1_text_title span{
-    font-size: 20px;
-}
-div.blog_3_ul div.blog_3_1_content{
-    margin-top: 10px;
-    font-size: 16px;
+
+    .section_body .button{
+        border-radius: 50px;
+        background-color: #A04724;
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        font-size: 28px;
+        padding: 2px;
+        font-weight: bold;
+        color: white;
+    }
+    .section_body .button{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .button:hover{
+        color: #f6cf5f;
+    }
 }
 
 
+@media (min-width: 768px) and (max-width: 1199.98px){
+    .section_top{
+        margin-top: 100px;
+        width: 50%;
+    }
+    .section_top .title{
+        display: block;
+        z-index: 1;
+        font-size: 36px;
+        width:100%;
+        text-align: center;
+        font-weight: bold;
+    }
 
-div.blog_3_u2 div.blog_3_bg2{
-    display: inline-block;
-    background-image: url("../images/tab/100135/patten1.jpg");
-    width: 100px;
-    height: 135px;
-    margin-left: 100px;
-    margin-top: 60px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_3_u2 div.blog_3_2_text_title{
-    vertical-align: top;
-    margin-top: 65px;
-    display: inline-block;
-    margin-left: 35px;
-    font-size: 24px;
-}
-div.blog_3_ul2 div.blog_3_2_text_title span{
-    font-size: 20px;
-}
-div.blog_3_ul2 div.blog_3_2_content{
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-div.blog_3 div.t1_button{
-    width: 360px;
-    margin-left: 75px;
-    margin-top: 200px;
-    height: 70px;
-    background-image: url("../images/arrow.png");
-    background-repeat: no-repeat;
-    z-index: 2;
-}
-div.blog_3 div.t1_button span{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    top: -5px;
-    display: inline-block;
-    z-index: 2;
-}
+    .section_body{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
 
 
+    /* BLOG 通用 */
+    .blog{
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+        /* background-color: #fff; */
+    }
+    .blog .blog_left{
+        display: block;
+        width: 50%;
+    }
+    .blog_left,.blog_right{
+        border-top-left-radius: 25px;
+        box-shadow: 0px -5px 0px #f6cf5f;
+        display: block;
+        z-index: 3;
+        background-color: #fff;
+        padding-bottom: 100px;
+        margin-top: 100px;
+    }
+    .blog .blog_right{
+        display: block;
+        width: 50%;
+        margin-top: 300px;
+    }
+
+
+    .blog_title{
+        display: inline-block;
+        margin-top: 60px;
+        font-size: 28px;
+        margin-left: 60px;
+    }
+
+    .blog .hori_line{
+        display: block;
+        border-top: 2px solid black;
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .blog_bg{
+        width: 100px;
+        height: 135px;
+        margin-left: 10%;
+        margin-top: 90px;
+        display: inline-block;
+        /* box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6); */
+        box-shadow: 5px 5px 10px black;
+    }
+    .blog_ul .blog_title{
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 24px;
+        margin-left: 5%;
+        margin-top: 90px;
+    }
+    .blog_ul .blog_title span{
+        font-size: 20px;
+    }
+
+    .blog .blog_content{
+        margin-top:10px;
+        font-size: 16px;
+    }
 
 
 
+    /* 按鈕 */
+
+
+    .section_body .item_button{
+        border-radius: 50px;
+        background-color: #A04724;
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 2px;
+        font-weight: bold;
+        color: white;
+    }
+    .section_body .item_button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .item_button:hover{
+        color: #f6cf5f;
+    }
+    a{
+        text-decoration: none;
+    }
 
 
 
+    .section_body .button{
+        border-radius: 50px;
+        background-color: #A04724;
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        font-size: 28px;
+        padding: 2px;
+        font-weight: bold;
+        color: white;
+    }
+    .section_body .button{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .button:hover{
+        color: #f6cf5f;
+    }
+    div.section3 div.section3_left{
+        width: 50%;
+    }
+    div.section3 div.section3_right{
+        width: 50%;
+    }
+    div.blog div.hori_line{
+        width: 70%;
+    }
 
+    div.tb3_2{
+        display: none;
+    }
+    div.tb3{
+        display: block;
+        margin-left: 0;
+    }
 
-
-
-
-
-
-
-
-/* 右邊 */
-
-
-
-
-
-
-div.right div.blog_1{
-    margin-top: 730px;
-    border-top-left-radius: 25px;
-    box-shadow: 0px -5px 0px #f6cf5f;
-    display: block;
-}
-
-div.blog_1 div.blog_1_title{
-    display: inline-block;
-    margin-top: 60px;
-    font-size: 28px;
-    margin-left: 60px;
-}
-div.blog_1 div.hori_line{
-    display: block;
-    border-top: 2px solid black;
-    width: 440px;
-    margin-left: 60px;
-    margin-top: 10px;
-}
-div.blog1 div.blog_1_ul{
-    width: 280px;
-    border: 10px solid rgb(128, 129, 128);
-}
-div.blog_1 div.blog_1_bg{
-    width: 100px;
-    height: 135px;
-    background-image: url("../images/tab/100135/p2.jpg");
-    margin-left: 55px;
-    margin-top: 90px;
-    display: inline-block;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}   
-
-
-div.blog_1 div.blog_1_1_text_title{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 24px;
-    margin-left: 35px;
-    margin-top: 90px;
-}
-div.blog_1 div.blog_1_1_text_title span{
-    font-size: 20px;
-}
-
-
-div.blog_1 div.blog_1_1_content{
-    font-size: 16px;
-    margin-top: 10px;
-
-}
-div.blog_1_ul2 div.blog_2_bg{
-    display: inline-block;
-    background-image: url("../images/tab/100135/p1.jpg");
-    width: 100px;
-    height: 135px;
-    margin-top: 60px;
-    margin-left: 55px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6);
-}
-div.blog_1_ul2 div.blog_1_2_text_title{
-    vertical-align: top;
-    margin-top: 60px;
-    display: inline-block;
-    margin-left: 35px;
-    font-size: 24px;
-}
-div.blog_1_ul2 div.blog_1_2_text_title span{
-    font-size: 20px;
-}
-div.blog_1_ul2 div.blog_1_2_content{
-    margin-left: 35px;
-    margin-top: 10px;
-    font-size: 16px;
-}
-div.blog_1 div.t1_button{
-    width: 360px;
-    margin-left: 75px;
-    margin-top: 200px;
-    height: 70px;
-    background-image: url("../images/arrow.png");
-    background-repeat: no-repeat;
-}
-div.blog_1 div.t1_button span{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f6cf5f;
-    position:relative;
-    top: -5px;
-    display: inline-block;
+    div.section3_right div.sr3_block{
+        display: block;
+    }
+    div.img_block div.img{
+        display: none;
+    }
 }
 
 
@@ -377,3 +321,184 @@ div.blog_1 div.t1_button span{
 
 
 
+
+/* BLOG右  基礎樂理 */
+@media screen and (max-width: 767.98px){
+    .section_top{
+        margin-top: 100px;
+        width: 50%;
+    }
+    .section_top .title{
+        display: block;
+        z-index: 1;
+        font-size: 36px;
+        width:100%;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .section_body{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    /* BLOG 通用 */
+    .blog{
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+        /* background-color: #fff; */
+    }
+    .blog .blog_left{
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .blog_left,.blog_right{
+        border-top-left-radius: 25px;
+        box-shadow: 0px -5px 0px #f6cf5f;
+        display: block;
+        z-index: 3;
+        background-color: #fff;
+    }
+    .blog .blog_right{
+        display: block;
+        width: 100%;
+    }
+
+
+    .blog_title{
+        display: inline-block;
+        margin-top: 60px;
+        font-size: 28px;
+        margin-left: 60px;
+    }
+
+    .blog .hori_line{
+        display: block;
+        border-top: 2px solid black;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .blog_bg{
+        width: 100px;
+        height: 135px;
+        margin-left: 10%;
+        margin-top: 90px;
+        display: inline-block;
+        /* box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0,6); */
+        box-shadow: 5px 5px 10px black;
+    }
+    .blog_ul .blog_title{
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 24px;
+        margin-left: 35px;
+        margin-top: 90px;
+    }
+    .blog_ul .blog_title span{
+        font-size: 20px;
+    }
+
+    .blog .blog_content{
+        text-align: left;
+        margin-top:10px;
+        font-size: 16px;
+    }
+
+
+
+    /* 按鈕 */
+
+
+    .section_body .item_button{
+        border-radius: 50px;
+        background-color: #A04724;
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 2px;
+        font-weight: bold;
+        color: white;
+    }
+    .section_body .item_button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .item_button:hover{
+        color: #f6cf5f;
+    }
+    a{
+        text-decoration: none;
+    }
+
+
+
+    .section_body .button{
+        border-radius: 50px;
+        background-color: #A04724;
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        font-size: 28px;
+        padding: 2px;
+        font-weight: bold;
+        color: white;
+    }
+    .section_body .button{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .button:hover{
+        color: #f6cf5f;
+    }
+    .section_body .blog{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog_left{
+        width: 100%;
+        display: block;
+    } 
+    .blog_right{
+        display: block;
+        width: 100%;
+    }
+    .blog_title{
+        margin: 0 auto;
+        margin-top:110px;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+    .blog_left,.blog_right{
+        border-top-left-radius: 25px;
+        box-shadow: 0px -5px 0px #f6cf5f;
+        display: flex;
+        flex-direction: row;
+        z-index: 3;
+        background-color: #fff;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .blog .blog_ul{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}

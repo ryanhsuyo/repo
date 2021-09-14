@@ -3,442 +3,488 @@
 @import "../common/banner2.css";
 @import "../common/footer.css";
 
-div.top_title{
-    position: absolute;
-    width: 200px;
-    top: 200px;
-    left: 960px;
-    z-index: 1;
-    color: white;
-    font-size: 48px;
+
+.section_top{
+    margin-top: 100px;
+    width: 50%;
 }
-div.top_block{
-    width: 640px;
-    height: 120px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 360px;
-}
-div.title{
-    background-color: white;
-    transform: translateY(-80px);
+.section_top div.title{
     display: block;
     z-index: 1;
-    font-size: 48px;
-    line-height: 160px;
-    width:640px;
-    padding-left: 100px;
+    font-size: 36px;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
 }
-main{
-    width: 1200px;
+
+.section_body{
+    width: 80%;
+    display: flex;
     margin: 0 auto;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
 }
-div.main{
-    position: relative;
+.section_body .top{
+    width: 100%;
     display: flex;
 }
-div.left{
+.section_body .middle{
+    width: 100%;
     display: flex;
-    width: 640px;
+}
+.section_body .bottom{
+    width: 100%;
+    display: flex;
 }
 /* 流程表 */
-div.left div.process{
+.top{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 640px;
+    width: 100%;
 }
-div.left div.process_line{
-    width: 50px;
-    height: 50px;
+.top .left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
 }
-/* 
-流程一
-div.process_1{
-    position: relative;
-} */
-div.process_1 div.bg1{
-    position: relative;
-    width: 240px;
-    height: 240px;
-    background-image: url("../images/icon-room.jpg");
-    background-size: cover;
+.left .pic{
+    border:1px solid red;
+    background: cornflowerblue;
+    height: 30%;
+    width: 30%;
 }
-div.process_1 div.content{
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 200px;
-    text-align: center;
+.top .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right .title{
+    display: flex;
     font-size: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
-div.process_1 div.bg1:after{
-    position: absolute;
-    left: 300px;
-    top: 150px;
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-left-color: black;
-}
-/* 流程二 */
-/* div.process_2{
-    width: 400px;
-} */
-div.process_2 div.bg2{
-    position: relative;
-    width: 240px;
-    height: 240px;
-    background-image: url("../images/icon-phone-call.jpg");
-    background-size: cover;
-}
-div.process_2 div.content{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 200px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-div.process_2 div.bg2:after{
-    position: absolute;
-    left: 110px;
-    top: 310px;
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top-color: black;
-}
-
-/* 流程四 */
-/* div.process_4{
-    width: 400px;
-} */
-div.process_4 div.bg4{
-    display: inline-block;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    background-image: url("../images/icon-id-card.jpg");
-    background-size: cover;
-}
-div.process_4 div.content{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 200px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-div.process_4 div.bg4:after{
-    position: absolute;
-    left: -110px;
-    top: 110px;
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-right-color: black;
-}
-
-
-/* 流程三 */
-/* div.process_3{
-    width: 400px;
-} */
-div.process_3 div.bg3{
-    display: inline-block;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    background-image: url("../images/icon-form-fill.jpg");
-    background-size: cover;
-}
-div.process_3 div.content{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 200px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-div.process_3 div.bg3:after{
-    position: absolute;
-    left: 110px;
-    top: -30px;
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: black;
-}
-
-
-
-
-div.right{
-display: flex;
-width: 560px;
-}
-div.right div.process_block{
+.right .icon{
     margin: 0 auto;
     display: flex;
-    /* width: 560px; */
-    align-items: center;
-
+    justify-content: space-evenly;
 }
-div.right div.process_line{
-background-image: url("../images/line.jpg");
-width: 100px;
-height: 100px;
+.icon .line{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.icon .fb{
+    margin: 20px;
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
 }
 
 
 
 /* 彩排租借  */
-div.main div.rantroom{
+.section_body .middle{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle .re_left{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.middle .re_right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.room_top{
+    display: block;
+    flex-direction: column;
+}
+.room_main{
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+.room_main img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.room_bottom{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.room img{
+    height: 80px;
+    width: 120px;
+    object-fit: cover;
+}
+.middle .re_right{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.text_top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.text_top .title{
+    margin-bottom: 40px;
+    font-size: 28px;
+    display: block;
+}
+.text_top .content{
+    font-size: 20px;
+    word-wrap: normal;
+    display: block;
+    margin-bottom: 30px;
+}
+.text_top .price{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+
+/* 聯絡我們 */
+.text_bottom .title{
+    margin: 0 auto;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.text_bottom .icon{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icon .line{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+.line img{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+.fb img{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.icon .fb{
+    margin: 20px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+
+/* 練團室 */
+.section_body .bottom{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    /* justify-content: space-around; */
+}
+
+.bottom .tr_right{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bottom .tr_left{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.tr_right .room_top{
+    display: block;
+    flex-direction: column;
+}
+.tr_right .room_bottom{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom .tr_left{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.tr_left .text_top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    .room_bottom{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .room{
+        width: 100%;
+        height: 70%;
+    }
+    .room img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .section_body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section_body .left{
+        width: 100%;
+    }
+    .section_body .top{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .top .left{
+        width: 100%;
+    }
+    .top .right{
+        width: 100%;
+    }
+    .right .title{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .right .icon{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .icon .line{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+    .icon .fb{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+    .line img{
+        object-fit: cover;
+        width: 50px;
+        height: 50px;
+    }
+    .fb img{
+        object-fit: cover;
+        width: 50px;
+        height: 50px;;
+    }
     
-    width: 1150px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+    /* 彩排租借  */
+    .section_body .middle{
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle .re_left{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .middle .re_right{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .room_top{
+        display: block;
+        flex-direction: column;
+    }
+    .room_main{
+        margin-bottom: 50px;
+        object-fit: cover;
+    }
+    .room_main img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .room_bottom{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .room{
+        width: 100%;
+        height: 70%;
+    }
+    .room img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .middle .re_right{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .text_top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .text_top .title{
+        margin-bottom: 40px;
+        font-size: 28px;
+        display: block;
+    }
+    .text_top .content{
+        font-size: 20px;
+        word-wrap: normal;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .text_top .price{
+        margin-top: 20px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+
+    /* 聯絡我們 */
+    .text_bottom .title{
+        margin: 0 auto;
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .text_bottom .icon{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .icon .line{
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        margin: 20px;
+    }
+    .line img{
+        object-fit: cover;
+        width: 70px;
+        height: 70px;
+    }
+    .fb img{
+        object-fit: cover;
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon .fb{
+        margin: 20px;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+    }
+    
+
+    /* 練團室 */
+    .section_body .bottom{
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        /* justify-content: space-around; */
+    }
+
+    .bottom .tr_right{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .bottom .tr_left{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .tr_right .room_top{
+        display: block;
+        flex-direction: column;
+    }
+    .tr_right .room_bottom{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .bottom .tr_left{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .tr_left .text_top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
 }
-div.rantroom div.rehearsa_room{
-    margin: 0 auto;
-    display: flex;
-    margin-top: 150px;
-}
-div.rehearsa_room div.re_room_bg{
-    width: 680px;
-    height: 460px;
-    margin-bottom: 100px;
-    background-image: url("../images/rent/40592200_2271446103127654_5648624692869726208_n.jpg");
-    background-size: cover;
-    position: relative;
-    display: flex;
-}
-div.re_left{
-    width: 640px;
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-}
-div.rehearsa_room div.re_room_bg1{
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    background-image: url("../images/rent/40620366_2271446149794316_2979156403618316288_n.jpg");
-    background-size: cover;
-    justify-content: space-between;
-
-}
-div.rehearsa_room div.re_room_bg2{
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    background-image: url("../images/rent/48414321_2146318678721645_5611236285298507776_n.jpg");
-    background-size: cover;
-}
-div.rehearsa_room div.re_room_bg3{
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    background-image: url("../images/rent/S__58220556.jpg");
-    background-size: cover;
-}
-
-/* 彩排 介紹 */
-div.re_right{
-    display: flex;
-    flex-direction: column;
-    height: 460px;
-}
-div.re_right div.re_title{
-    width: 400px;
-    font-size: 60px;
-
-}
-div.re_right div.re_title span{
-    font-size: 40px;
-}
-div.re_right div.content{
-    width: 320px;
-    font-size: 40px;
-    line-height: 60px;
-}
-div.re_right div.price{
-    margin-top: 60px;
-    width: 320px;
-    font-size: 40px;
-    line-height: 20px;
-
-}
-
-
-
-
-/* 彩排預約 */
-div.re_right_bottom{
-    margin-top: 50px;
-    display: block;
-}
-
-
-div.re_right_bottom div.connect_title{
-    font-size: 40px;
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 30px;
-
-}
-div.re_right_bottom div.connect{
-    display: flex;
-    justify-content: space-around;
-    width: 400px;  
-
-}
-div.connect div.connect_fb{
-    display: inline-block;
-    background-image: url("../images/fb.jpg");
-    width: 100px;
-    height: 100px;
-}
-div.connect div.connect_line{
-    display: inline-block;
-    background-image: url("../images/line.jpg");
-    width: 100px;
-    height: 100px;
-}
-
-
-
-
-
-/* 練團租借 */
-
-/* 練團介紹 */
-div.rantroom div.training_room{
-    margin: 0 auto;
-    display: flex;
-    margin-top: 150px;
-    width: 1100px;
-    margin-bottom: 200px;
-}
-
-div.tr_left{
-    display: flex;
-    flex-direction: column;
-    height: 560px;
-}
-div.tr_left div.tr_title{
-    width: 400px;
-    font-size: 60px;
-
-}
-div.tr_left div.content{
-    width: 320px;
-    font-size: 40px;
-    line-height: 60px;
-}
-div.tr_left div.price{
-    margin-top: 60px;
-    width: 320px;
-    font-size: 40px;
-    line-height: 20px;
-}
-
-
-
-
-/* 練團預約 */
-div.tr_left_bottom{
-    margin-top: 50px;
-    display: block;
-    width: 400px;
-}
-
-
-div.tr_left_bottom div.connect_title{
-    font-size: 40px;
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 30px;
-
-}
-div.tr_left_bottom div.connect{
-    display: flex;
-    justify-content: space-around;
-    width: 400px;  
-
-}
-div.tr_left_bottom div.connect div.connect_fb{
-    display: inline-block;
-    background-image: url("../images/fb.jpg");
-    width: 100px;
-    height: 100px;
-}
-div.tr_left_bottom div.connect div.connect_line{
-    display: inline-block;
-    background-image: url("../images/line.jpg");
-    width: 100px;
-    height: 100px;
-}
-
-
-/* 練團租借 */
-
-
-div.rantroom div.tr_right{
-    width: 640px;
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-}
-div.tr_right div.tr_room_bg{
-    width: 680px;
-    height: 460px;
-    margin-bottom: 100px;
-    background-image: url("../images/rent/40642816_2271450549793876_4749345887837224960_n.jpg");
-    background-size: cover;
-    position: relative;
-    display: flex;
-}
-div.tr_right div.tr_room_bg1{
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    background-image: url("../images/rent/IMG_6994\ 2.JPG");
-    background-size: cover;
-    justify-content: space-between;
-
-}
-div.tr_right div.tr_room_bg2{
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    background-image: url("../images/rent/train.png");
-    background-size: cover;
-}
-div.tr_right div.tr_room_bg3{
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    background-image: url("../images/rent/S__58220557.jpg");
-    background-size: cover;
-}
-

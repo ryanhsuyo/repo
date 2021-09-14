@@ -2,47 +2,31 @@
 @import "../common/header.css";
 @import "../common/banner2.css";
 @import "../common/footer.css";
-div.top_title{
-    position: absolute;
-    width: 200px;
-    top: 200px;
-    left: 960px;
-    z-index: 1;
-    color: white;
-    font-size: 48px;
+
+
+
+
+
+div.section_top{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
 }
-div.top_block{
-    width: 640px;
-    height: 120px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 360px;
-}
-div.title{
-    background-color: white;
-    transform: translateY(-80px);
+div.section_top div.title{
     display: block;
     z-index: 1;
-    font-size: 48px;
-    line-height: 160px;
-    width:640px;
-    padding-left: 100px;
-}
-main{
-    width: 1200px;
-    margin: 0 auto;
-}
-div.main{
-position: relative;
+    font-size: 36px;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
 }
 
 div.bg{
     position: flex;
-    width: 1200px;
+    /* width: 1200px; */
     z-index: -1;
 }
-div.bg div.left{
+/* div.bg div.left{
     position: absolute;
     width: 640px;
     height: 1220px;
@@ -56,31 +40,30 @@ div.bg div.right{
     height: 1100px;
     background-image: url("#");
     z-index: -1;
-}
-div.bg_bottom{
+} */
+/* div.bg_bottom{
     position: absolute;
     width: 1200px;
     top: 1100px;
     height: 1200px;
     background-color: black;
     z-index: -1;
-}
+} */
 
 
 /* 課程表單 */
-div.classitem{
-    margin-top: 80px;
+.section_body{
     display: flex;
     flex-wrap: wrap;
-    width: 1100px;
+    width: 80%;
     margin: 0 auto;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: space-around;
 }
-/* item1 */
-div.item1_block{
-    width: 350px;
+/* 通用 */
+.section_body .item_block{
+    width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,22 +71,21 @@ div.item1_block{
     box-shadow: 3px 3px 12px black;
     margin-bottom: 30px;
 }
-div.item1_block div.item1_bg{
+.item_block .item_bg{
     margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    background-image: url("../images/class/class10.jpg");
-    margin-bottom: 40px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
 }
-div.item1_block div.item1_title{
-    font-size: 36px;
+div.item_block div.item_title{
+    font-size: 16px;
     text-align: center;
 }
 div.item1_block div.item1_title span{
     font-size: 16px;
 }
 div.item1_block div.item1_button{
-    margin-top: 45px;
+    /* margin-top: 45px; */
     border-radius: 50px;
     border:2px solid black;
     font-size: 24px;
@@ -111,380 +93,113 @@ div.item1_block div.item1_button{
     width: 165px;
     text-align: center;
     margin-bottom: 15px;
+}
+/* 圖片 */
+.item_block .item_bg1{
+    background-image: url("../images/class/class10.jpg");
 }
 /* item2 */
-div.item2_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item2_block div.item2_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
+.item_block .item_bg2{
     background-image: url("../images/online-class1-min.jpg");
-    background-size: cover;
-    margin-bottom: 40px;
-}
-div.item2_block div.item2_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item2_block div.item2_title span{
-    font-size: 16px;
-}
-div.item2_block div.item2_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item3 */
-div.item3_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item3_block div.item3_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
+.item_block .item_bg3{
     background-image: url("../images/shutterstock_443724343-min-e1569580014716.jpg");
-    background-size: cover;
-    margin-bottom: 40px;
-}
-div.item3_block div.item3_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item3_block div.item3_title span{
-    font-size: 16px;
-}
-div.item3_block div.item3_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item4 */
-div.item4_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-    margin-bottom: 30px;
-}
-div.item4_block div.item4_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    margin-bottom: 40px;
+.item_block .item_bg4{
     background-image: url("../images/shutterstock_469972379-2-min-1-e1569574908944.jpg");
-    background-size: cover;
-}
-div.item4_block div.item4_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item4_block div.item4_title span{
-    font-size: 16px;
-}
-div.item4_block div.item4_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item5 */
-div.item5_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item5_block div.item5_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
+.item_block .item_bg5{
     background-image: url("../images/class/class3.jpg");
-    background-size: cover;
-    margin-bottom: 40px;
 }
-div.item5_block div.item5_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item5_block div.item5_title span{
-    font-size: 16px;
-}
-div.item5_block div.item5_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-/* item5 */
-div.item6_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item6_block div.item6_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    margin-bottom: 40px;
+/* item6 */
+.item_block .item_bg6{
     background-image: url("../images/class/class5.jpg");
-    background-size: cover;
-}
-div.item6_block div.item6_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item6_block div.item6_title span{
-    font-size: 16px;
-}
-div.item6_block div.item6_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item7 */
-div.item7_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-    margin-bottom: 30px;
-}
-div.item7_block div.item7_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
+.item_block .item_bg7{
     background-image: url("../images/class/class2.jpg");
-    background-size: cover;
-    margin-bottom: 40px;
-}
-div.item7_block div.item7_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item7_block div.item7_title span{
-    font-size: 16px;
-}
-div.item7_block div.item7_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item8 */
-div.item8_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item8_block div.item8_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    margin-bottom: 40px;
+.item_block .item_bg8{
     background-image: url("../images/uklele.png");
-    background-size: cover;
-}
-div.item8_block div.item8_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item8_block div.item8_title span{
-    font-size: 16px;
-}
-div.item8_block div.item8_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item9 */
-div.item9_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item9_block div.item9_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    margin-bottom: 40px;
+.item_block .item_bg9{
     background-image: url("../images/online-cajon-class.jpg");
 }
-div.item9_block div.item9_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item9_block div.item9_title span{
-    font-size: 16px;
-}
-div.item9_block div.item9_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
-}
 /* item10 */
-div.item10_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-    margin-bottom: 200px;
-}
-div.item10_block div.item10_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
+.item_block .item_bg10{
     background-image: url(../images/online-cajon-class.jpg);
-    background-size: cover;
-    margin-bottom: 40px;
-}
-div.item10_block div.item10_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item10_block div.item10_title span{
-    font-size: 16px;
-}
-div.item10_block div.item10_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item11 */
-div.item11_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item11_block div.item11_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    margin-bottom: 40px;
+.item_block .item_bg11{
     background-image: url(../images/class/class8.jpg);
-    background-size: cover;
-}
-div.item11_block div.item11_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item11_block div.item11_title span{
-    font-size: 16px;
-}
-div.item11_block div.item11_button{
-    margin-top: 45px;
-    border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 /* item12 */
-div.item12_block{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    box-shadow: 3px 3px 12px black;
-}
-div.item12_block div.item12_bg{
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    margin-bottom: 40px;
+.item_block .item_bg12{
     background-image: url("../images/class/class8.jpg");
-    background-size: cover;
 }
-div.item12_block div.item12_title{
-    font-size: 36px;
-    text-align: center;
-}
-div.item12_block div.item12_title span{
-    font-size: 16px;
-}
-div.item12_block div.item12_button{
-    margin-top: 45px;
+
+
+
+/* 按鈕 */
+
+
+.section_body .item_button{
     border-radius: 50px;
-    border:2px solid black;
-    font-size: 24px;
-    font-weight: bold;
-    width: 165px;
+    background-color: #A04724;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
     text-align: center;
-    margin-bottom: 15px;
+    align-items: center;
+    font-size: 20px;
+    padding: 2px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item_button:hover{
+    color: #f6cf5f;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.section_bottom .button{
+    border-radius: 50px;
+    background-color: #A04724;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    padding: 2px;
+    font-weight: bold;
+    color: white;
+}
+.button:hover{
+    color: #f6cf5f;
+}
+.section_bottom{
+    width: 100%;
+    display: block;
+}
+.section_bottom .button{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 767.98px){
+    .section_body{
+        width: 100%;
+    }
 }
