@@ -782,7 +782,7 @@ div.section_body div.section1_right{
         flex-direction: row;
     }
     .img-wrap img {
-       display: none;
+        display: none;
     }
     .button2_block{
         display: flex;
@@ -1469,7 +1469,7 @@ div.block_top div.item{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 70%;
-        height: 100%;
+        height: 70%;
         z-index: 1;
     }
     
@@ -1482,12 +1482,12 @@ div.block_top div.item{
         display: block;
     }
     .item .item_bg{
-        height: 100%;
+        height: 80%;
         width: 100%;
     }
     div.item img{
-        height: 90%; 
-        width: 90%;
+        height: 100%; 
+        width: 100%;
         object-fit: cover;
     }
 
@@ -1497,14 +1497,14 @@ div.block_top div.item{
         left: -80px;
         font-size: 28px;
         color: #f6cf5f;
-        z-index: 2;
+        z-index: 7;
     }
     div.content div.text{
         display: inline-block;
         left: 20%;
         color: white;
         font-size: 16px;
-        z-index: 2;
+        z-index: 7;
         padding-top: 70%;
     }
     div.s4_block div.block4_bottom{
