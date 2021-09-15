@@ -1440,7 +1440,7 @@ div.block_top div.item{
     }
     div.s4_block div.block4_bottom{
         display: flex;
-        margin-top: 50px;
+        margin-top: 100px;
         margin-bottom: 50px;
         justify-content: center;
     }
