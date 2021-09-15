@@ -1405,6 +1405,10 @@ div.block_top div.item{
         display: flex;
         flex-direction: column;
     }
+    .block_top .s4_block{
+        display: flex;
+        flex-direction: column;
+    }
     div.s4_block div.content{
         width: 100%;
         display: none;
