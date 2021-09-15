@@ -1426,6 +1426,9 @@ div.block_top div.item{
         margin: 0;
     }
     div.block_top div.item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
