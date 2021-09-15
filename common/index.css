@@ -1254,10 +1254,9 @@ div.block_top div.item{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 675px;
-    height: 675px;
-    margin-top: 150px;
-    margin-left: 175px;
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
     z-index: 1;
 }
 .buttom3_block2{
