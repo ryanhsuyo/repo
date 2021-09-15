@@ -1426,7 +1426,7 @@ div.block_top div.item{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 100%;
-        height: 100%;
+        height: 80%;
         z-index: 1;
     }
     div.content div.text{
