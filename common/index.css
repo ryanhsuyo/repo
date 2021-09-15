@@ -1428,7 +1428,7 @@ div.block_top div.item{
     div.content div.text{
         text-align: center;
         width: 100%;
-        display: inline-block;
+        display: block;
         color: white;
         font-size: 16px;
         z-index: 7;
