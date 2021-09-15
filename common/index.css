@@ -1401,10 +1401,14 @@ div.block_top div.item{
     div.s4_block{
         padding-bottom: 20px;
     }
-    
+    .block_top{
+        display: flex;
+        flex-direction: column;
+    }
     div.s4_block div.content{
         width: 100%;
-        display: block;
+        display: flex;
+        flex-direction: column;
         padding-top: 0px;
     }
     div.content div.title{
