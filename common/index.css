@@ -1399,7 +1399,7 @@ div.block_top div.item{
 
 @media screen and (max-width: 767.98px){
     div.s4_block{
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
     .block_top{
         display: flex;
@@ -1452,10 +1452,10 @@ div.block_top div.item{
         justify-content: center;
     }
     
-    div.block4_bottom div.tb4{
+    /* div.block4_bottom div.tb4{
         margin: 0 auto;
         
-    }
+    } */
 }
 @media (min-width:767.98px) and (max-width: 1200px){
     div.section_body div.section4{
