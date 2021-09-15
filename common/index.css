@@ -1407,7 +1407,7 @@ div.block_top div.item{
     }
     div.s4_block div.content{
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         padding-top: 0px;
     }
@@ -1425,14 +1425,14 @@ div.block_top div.item{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
         z-index: 1;
     }
     div.content div.text{
         text-align: center;
         width: 100%;
-        display: block;
+        display: none;
         color: white;
         font-size: 16px;
         z-index: 7;
