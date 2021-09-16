@@ -5,6 +5,8 @@
 
 
 header.header{
+    max-width: 1200px;
+    margin: 0 auto;
     display: block;
     width: 100%;
     position: fixed;
@@ -20,6 +22,7 @@ header.header{
         top: 0px;
         z-index: 10;
         background-color: white;
+        min-width: 320px;
     }
 }
 header.header div.header_nav{
